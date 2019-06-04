@@ -1,0 +1,9 @@
+---
+title: "Dr.Ha's Educational Webpage"
+---
+
+### Front Page
+
+Display what you want. Like pictures:
+
+<img src="Images/cool_image.jpeg" style="width:25%">

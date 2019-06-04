@@ -1,0 +1,25 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: Topics
+      menu:
+        - text: Topic I
+          href: topic_i.html
+        - text: Topic II
+          href: topic_ii.html
+        - text: Topic III
+          href: topic_iii.html
+        - text: Topic IV
+          href: topic_iv.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<rh2616@cumc.columbia.edu>
+output:
+  html_document:
+    theme: cosmo
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
