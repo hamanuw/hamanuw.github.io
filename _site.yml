@@ -19,7 +19,7 @@ navbar:
       href: mailto:<rh2616@cumc.columbia.edu>
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     lib_dir: site_libs
     self_contained: no
