@@ -7,14 +7,12 @@ navbar:
       href: about.html
     - text: Topics
       menu:
-        - text: Topic I
-          href: topic_i.html
-        - text: Topic II
-          href: topic_ii.html
-        - text: Topic III
-          href: topic_iii.html
-        - text: Topic IV
-          href: topic_iv.html
+        - text: LF1
+          href: LF1.html
+        - text: LF2
+          href: LF2.html
+        - text: LF3
+          href: LF3.html
     - icon: fa-envelope fa-lg
       href: mailto:<rh2616@cumc.columbia.edu>
 output:

@@ -1,0 +1,16 @@
+---
+title: "LF1"
+---
+
+This contains all the topics in the folder LF1.
+
+The topic is made up of the following components. 
+
+* 4 cad [Part I](topic_i.html)
+* b9 [Part II](topic_ii.html)
+* ca [Part III](topic_iii.html)
+* eod t8 fx [Part IV](topic_iv.html)
+* impant [Part V](topic_v.html)
+* itc [Part VI](topic_vi.html)
+* residual [Part VII](topic_vii.html)
+* risk [Part VIII](topic_viii.html)

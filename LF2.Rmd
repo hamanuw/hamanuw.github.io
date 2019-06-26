@@ -1,0 +1,10 @@
+---
+title: "LF2"
+---
+
+This contains all the topics in the folder LF1.
+
+The topic is made up of the following components. 
+
+* b9 [Part I](topic_i_LF2.html)
+* ca [Part II](topic_ii_LF2.html)

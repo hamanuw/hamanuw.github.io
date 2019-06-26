@@ -1,0 +1,12 @@
+---
+title: "LF3"
+---
+
+This contains all the topics in the folder LF1.
+
+The topic is made up of the following components. 
+
+* b9 [Part I](topic_i_LF3.html)
+* ca [Part II](topic_ii_LF3.html)
+* high risk [Part III](topic_iii_LF3.html)
+* implant rupture [Part IV](topic_iv_LF3.html)
