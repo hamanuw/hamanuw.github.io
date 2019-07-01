@@ -6,27 +6,29 @@ output:
     toc_float: true
 ---
 
-Intro sentence about "Topic I". Motivations on why we study it, examples, current problems and modern solutions. 
+## EOD T8 FX
+(a)<img src="images/LF1/eod_t8_fx/a1a.tif" style="width:40%">
+(b)<img src="images/LF1/eod_t8_fx/a1b.tif" style="width:40%">
 
-## Subject I
+Figure 1 - Incidental T8 vertebral compression fracture detected on breast MRI localizer images
 
-Perhaps embed a previous powerpoint you have already on this subject of this topic. 
+a) Full field and 
+b) magnified sagittal localizer images from a breast MRIdemonstrate loss of height of the T8 vertebral body (arrows). 
 
-Method 1:
-<script async class="speakerdeck-embed" data-id="12bd7436b1004028af449e20fa7b4444" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+(a)<img src="images/LF1/eod_t8_fx/a2a.tif" style="width:40%">
+(b)<img src="images/LF1/eod_t8_fx/a2b.tif" style="width:40%">
 
-## Subject II 
-Pictures, links, more resources. 
+Figure 2 - Incidental T8 vertebral compression fractureon bone scan
 
+a) Anterior and 
+b) lateral Tc99m-MDP bone scan delayed images demonstrate increased radiotracer uptake in T8 (arrows) correlating with the MRI finding, compatible with acute or subacute fracture. 
 
-## Subject III
-Pictures, links, more resources. 
+**Teaching Points**: 
 
-## Subject IV
-Pictures, links, more resources. 
+Localizing images of the breast, performed in axial, coronal and sagittal plains, are initially performed to evaluate for optimal positioning and to ensure full coverage of both breasts and axillae. In addition to positioning, portions of the lungs, mediastinum, chest wall, spine and upper abdomen can be visualized and evaluated on these images. A large spectrum of abnormalities are possible, from benign pleural effusion with minimal effect on the clinical management, to extensive metastatic involvement of lymph nodes, bone or organs which has a significant impact on diagnostic work-up and disease management. We demonstrate an example of a screening MRI for a high risk young woman that detected a compression fracture of T8 spine, on the localizing scout images, confirmed to be pathologic on subsequent biopsy. 
 
-## Subject V
-Pictures, links, more resources. 
+*References*: 
 
-## Subject VI
-Pictures, links, more resources. 
+1)	Rinaldi P, Costantini M, Belli B, et al. Extra-mammary findings in breast MRI. Eur Radiol  (2011) 21:2268–2276
+
+2)	Palestrant S, Comstock C E, Moy L.  Approach to Breast Magnetic Resonance Imaging Interpretation. Radiol Clin N Am 52 (2014) 563-583.

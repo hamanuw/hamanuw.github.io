@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Zelos Zhu" />
+
+
+<title>Topic VIII - LF1</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Topics
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="LF1.html">LF1</a>
+    </li>
+    <li>
+      <a href="LF2.html">LF2</a>
+    </li>
+    <li>
+      <a href="LF3.html">LF3</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="mailto:&lt;rh2616@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Topic VIII - LF1</h1>
+<h4 class="author">Zelos Zhu</h4>
+<h4 class="date">7/1/2019</h4>
+
+</div>
+
+
+<div id="risk-brca-1-dense-mg" class="section level2">
+<h2>risk brca 1 dense MG</h2>
+<p>(a)<img src="images/LF1/risk_brca1/1a.tif" style="width:40%"> (b)<img src="images/LF1/risk_brca1/1b.tif" style="width:40%"></p>
+<p>Figure 1 - Screening mammogram in a 36-year-old BRCA2 positive patient with mammographicaly occult carcinoma</p>
+<ol style="list-style-type: lower-alpha">
+<li>CC and</li>
+<li>MLO views of the left breast demonstrate heterogeneously dense tissue. There is no suspicious mass, architectural distortion or microcalcifications.</li>
+</ol>
+<p>(a)<img src="images/LF1/risk_brca1/2a.tif" style="width:21%"> (b)<img src="images/LF1/risk_brca1/a2b.tif" style="width:21%"> (c)<img src="images/LF1/risk_brca1/a2c.tif" style="width:21%"> (d)<img src="images/LF1/risk_brca1/a2d.tif" style="width:21%"></p>
+<p>Figure 2 - Screening breast MRI showing a mammographically occult carcinoma in a 36-year-old BRCA2 positive patient</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weighted FS pre- and</li>
+<li>post-contrast images demonstrate a suspicious enhancing irregular mass in the lower breast (arrow) with</li>
+<li>CAD analysis demonstrating washout enhancement kinetics. No mammographic correlate was noted</li>
+<li>The corresponding T2-weighted FS image demonstrates no T2 hyperintense correlate.</li>
+</ol>
+<p><strong>Teaching points</strong>:<br />
+See next case.</p>
+</div>
+<div id="risk-brca-2" class="section level2">
+<h2>risk brca 2</h2>
+<p>(a)<img src="images/LF1/risk_brca2/a1a.tif" style="width:21%"> (b)<img src="images/LF1/risk_brca2/a1b.tif" style="width:21%"> (c)<img src="images/LF1/risk_brca2/a1c.tif" style="width:21%"> (d)<img src="images/LF1/risk_brca2/a1d.tif" style="width:21%"></p>
+<p>Figure 1 - Screening MRI demonstrating a mammographically and sonographically occult IDC in a 33-year-old BRCA2 mutation carrier</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weightedFS pre-and</li>
+<li>post-contrast images and</li>
+<li>corresponding CAD color overlay image demonstrate a homogeneously enhancing round mass (arrow) with washout kinetics</li>
+<li>No corresponding T2 signal hyperintensity was present. (Incidentally noted are metal artifact and poor fat saturation in the axilla). The mass was not identified on second look ultrasound. MRI guided biopsy yielded IDC.</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Although there is no direct evidence that screening with MRI will reduce mortality, it is thought that early detection by using annual MRI as surveillance for high risk women, in addition to mammography, may be useful. The American Cancer Society recommends screening MRI to be performed for women who are at high risk for breast cancer based on certain factors. This group includes:</p>
+<ol style="list-style-type: decimal">
+<li>Women with 20% to 25% or greater lifetime risk of breast cancer, according to risk assessment tools that are based mainly on family history.<br />
+</li>
+<li>Women with known BRCA1 or BRCA 2 gene mutation.</li>
+<li>Women with a first degree relative with a BRCA1 or 2 gene mutation and have not had genetic testing themselves.</li>
+<li>Women who had radiation therapy to the chest when they were between the ages or 10-30 years.</li>
+<li>Women who have Li-Fraumeni syndrome, Cowden Syndrome, or Bannayan-Riley-Ruvalcaba syndrome or have first degree relatives with one of these syndromes. BRCA 1 and BRCA 2 are tumor suppressor genes that play a role in DNA repair and mutations in either genes are associated with an autosomal dominant inherited form of breast and/or ovarian cancer. The two cases illustrate high sensitivity of breast MRI to detect clinically favorable early breast cancers in patients with high risk for breast cancer including patients with BRCA1 and BRCA 2 gene mutations. Lack of hyperintense T2 correlate should elevate the level of suspicion and biopsy should be performed in these high risk patients regardless of no corresponding sonographic correlate.</li>
+</ol>
+<p><em>References</em>: 1) American Cancer Society recommendations for early breast cancer detection in women without breast symptoms. Revised April, 2015. 2) American College of Radiology Practice Parameter for the Performance of Contrast Enhanced Magnetic Resonance Imaging (MRI) of the Breast. Amended 2014. 3) Pal T, Permuth-Wey J, Betts JA, et al. BRCA1 and BRCA2 mutations account for a large proportion of ovarian carcinoma cases. Cancer 2005; 104(12):2807–16.</p>
+</div>
+<div id="risk-cowden" class="section level2">
+<h2>risk cowden</h2>
+<p>(a)<img src="images/LF1/risk_cowden/a1a.tif" style="width:21%"> (b)<img src="images/LF1/risk_cowden/a1B.tif" style="width:21%"> (c)<img src="images/LF1/risk_cowden/a1C.tif" style="width:21%"> (d)<img src="images/LF1/risk_cowden/a1D.tif" style="width:21%"></p>
+<p>Figure 1 - Screening MRI performed in an 18-year-old patient with Cowden syndrome and multiple breast masses</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weighted FS and</li>
+<li>T2-weighted FS images of the left breast demonstrate multiple masses with T1 hypointensity and T2 hyperintensity (arrowhead) and T1 hypointensity and T2 minimal to mild hyperintensity (arrow)</li>
+<li>T1-weighted FS post-contrast image showshomogeneous enhancement in these masses with</li>
+<li>persistent delayed enhancement color coded as blue on the CAD overlay.</li>
+</ol>
+<p>(a)<img src="images/LF1/risk_cowden/a2a.tif" style="width:21%"> (b)<img src="images/LF1/risk_cowden/a2b.tif" style="width:21%"></p>
+<p>Figure 2 - Sagittal post-contrast subtraction MIP images of the (a) left and (b) right breasts show multiple masses in both breasts.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Cowden syndrome is an uncommon, autosomal dominant disease in patients with PTEN geneline mutation. It is characterized by multiple hamartomas of the skin, mucous membrane, brain, breast, thyroid, and gastrointestinal tract and increased susceptibility of breast cancer. The lifetime risk for breast carcinoma in Cowden syndrome is estimated to be 25–50%, compared to 12% in the general women population.</p>
+<p>Patients with Cowden syndrome can have bilateral multiple fibroadenomas in the breast as illustrated in this case, which makes it challenging to detect breast cancers. Fibroadenomas usually enhance homogeneously and have associated T2 hyper intensity and can demonstrate non-enhancing septations. The degree of enhancement and T2 signal intensity can vary. The National Comprehensive Cancer Network (NCCN) recommends breast self-examination beginning at the age of 18 years and annual screening with breast MRI and mammography starting between 30 and 35 years of age and not earlier than 25 years. After establishing a baseline, any change will indicate work up to exclude malignancy.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Peiro G, Adrover E, Guij J, et al. Synchronous Bilateral Breast Carcinoma in a Patient with Cowden Syndrome: A Case Report with Morphologic, Immunohistochemical and Genetic Analysis. The Breast Journal, Volume 16 November 1, 2010 77-81.</li>
+<li>Mirinae Seo, MD1 , Nariya Cho, MD2 , Hye Shin Ahn, MD. Cowden Syndrome Presenting as Breast Cancer: Imaging and Clinical Features. Korean J Radiol 2014;15(5):586-590</li>
+</ol>
+</div>
+<div id="risk-ph-recurrence" class="section level2">
+<h2>risk ph recurrence</h2>
+<p>(a)<img src="images/LF1/risk_ph_recurrence/a1a.tif" style="width:28%"> (b)<img src="images/LF1/risk_ph_recurrence/a1b.tif" style="width:28%"> (c)<img src="images/LF1/risk_ph_recurrence/a1c.tif" style="width:28%"></p>
+<p>Figure 1 - MRI showing cancer recurrence at the lumpectomy bed in a patient with history of XXX breast conservation</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weighted FS pre-contrast and</li>
+<li>T2-weighted FS images of the XXX breast demonstrate post radiation skin thickening (arrowheads) and the lumpectomy site, (arrows) which is heterogeneously T2 hyperintense</li>
+<li>Sagittal T1-weighted FS post-contrast image with CAD color overlay demonstrates irregular thick rim enhancement with washout kinetics (red, arrows) and adjacent background parenchymal enhancement with persistent kinetics (blue).</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>It has been estimated that tumor recurrence rates is about 1-2% per year in women who underwent breast conservation. It is usually discovered later than 18-24 months after treatment. Detection of treatment failure in these women while it is still asymptomatic improves relative survival by 27-47%.</p>
+<p>Lumpectomy site is a common site of recurrence as illustrated in this case. Patients with recurrence following lumpectomy of the original cancer and radiation are usually treated with salvage mastectomy. Breast MRI has a high sensitivity in the detection of breast cancer as high as 94–100%. MRI screening of women with only a personal history of breast cancer was clinically valuable finding malignancies in 12% of the patients in a published study. However, personal history is generally not an accepted indication for screening breast MRI.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Brennan S, Liberman L, Dershaw D, et al. Breast MRI Screening of Women With a Personal History of Breast CancerAJR 2010; 195:510–516.</li>
+<li>Chansakul T, Lai KC,. Slanetz PJ. The Postconservation Breast: Part 2, Imaging Findings of Tumor Recurrence and Other Long-Term Sequelae. AJR 2012; 198:331–343</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

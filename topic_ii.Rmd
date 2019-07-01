@@ -28,7 +28,8 @@ b) Sagittal T1-weighted FS pre-contrast images demonstrate a lobular T1 and T2 h
 Simple cysts result from dilatation and effacement of the terminal duct lobular unit. They are commonly seen incidentally on MRI and follow fluid signal on all sequences (appear very hyperintense on T2-weighted images and intermediate to low on T1-weighted images). On postcontrast images, cysts do not typically enhance, however, the periphery of the cyst may enhance if there is surrounding cystic inflammation.  Not infrequently, may have intermediate or high signal on T1-weighted images due to contents of proteinaceous contents or blood products. 
 
 *References*:
-Hines N, Slanetz PJ, Eisenberg RL. Cystic Masses of the Breast. AJR 2010; 194:W122–W133.
+
+1) Hines N, Slanetz PJ, Eisenberg RL. Cystic Masses of the Breast. AJR 2010; 194:W122–W133.
 
 ## b9 dilated duct
 (a)<img src="images/LF1/b9_dilated_duct/a1A.tif" style="width:21%">

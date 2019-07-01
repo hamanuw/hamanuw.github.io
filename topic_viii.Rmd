@@ -1,0 +1,111 @@
+---
+title: "Topic VIII - LF1"
+author: "Zelos Zhu"
+date: "7/1/2019"
+output: html_document
+---
+
+## risk brca 1 dense MG
+(a)<img src="images/LF1/risk_brca1/1a.tif" style="width:40%">
+(b)<img src="images/LF1/risk_brca1/1b.tif" style="width:40%">
+
+Figure 1 - Screening mammogram in a 36-year-old BRCA2  positive patient with mammographicaly occult carcinoma
+
+a) CC and 
+b) MLO views of the left breast demonstrate heterogeneously dense tissue.  There is no suspicious mass, architectural distortion or microcalcifications.
+
+(a)<img src="images/LF1/risk_brca1/2a.tif" style="width:21%">
+(b)<img src="images/LF1/risk_brca1/a2b.tif" style="width:21%">
+(c)<img src="images/LF1/risk_brca1/a2c.tif" style="width:21%">
+(d)<img src="images/LF1/risk_brca1/a2d.tif" style="width:21%">
+
+Figure 2 - Screening breast MRI showing a mammographically occult carcinoma in a 36-year-old BRCA2 positive patient
+
+a) Sagittal T1-weighted FS pre-  and 
+b) post-contrast images  demonstrate a suspicious enhancing irregular mass in the lower breast (arrow) with 
+c) CAD analysis demonstrating washout enhancement kinetics. No mammographic correlate was noted
+d) The corresponding T2-weighted FS image demonstrates no T2 hyperintense correlate. 
+
+**Teaching points**:  
+See next case. 
+
+## risk brca 2
+(a)<img src="images/LF1/risk_brca2/a1a.tif" style="width:21%">
+(b)<img src="images/LF1/risk_brca2/a1b.tif" style="width:21%">
+(c)<img src="images/LF1/risk_brca2/a1c.tif" style="width:21%">
+(d)<img src="images/LF1/risk_brca2/a1d.tif" style="width:21%">
+
+Figure 1 - Screening MRI demonstrating a mammographically and sonographically occult IDC in a 33-year-old  BRCA2 mutation carrier
+
+a) Sagittal T1-weightedFS pre-and 
+b) post-contrast images and 
+c) corresponding CAD color overlay image demonstrate a homogeneously enhancing round mass (arrow) with washout  kinetics
+d) No corresponding T2 signal hyperintensity was present. (Incidentally noted are metal artifact and poor fat saturation in the axilla).  The mass was not identified on second look ultrasound.  MRI guided biopsy yielded IDC. 
+
+**Teaching Points**:   
+
+Although there is no direct evidence that screening with MRI will reduce mortality, it is thought that early detection by using annual MRI as surveillance for high risk women, in addition to mammography, may be useful. The American Cancer Society recommends screening MRI to be performed for women who are at high risk for breast cancer based on certain factors. This group includes: 
+
+1.	Women with 20% to 25% or greater lifetime risk of breast cancer, according to risk assessment tools that are based mainly on family history.  
+2.	Women with known BRCA1 or BRCA 2 gene mutation. 
+3.	Women with a first degree relative with a BRCA1 or 2 gene mutation and have not had genetic testing themselves. 
+4.	Women who had radiation therapy to the chest when they were between the ages or 10-30 years.
+5.	Women who have Li-Fraumeni syndrome, Cowden Syndrome, or Bannayan-Riley-Ruvalcaba syndrome or have first degree relatives with one of these syndromes.
+BRCA 1 and BRCA 2 are tumor suppressor genes that play a role in DNA repair and mutations in either genes are associated with an autosomal dominant inherited form of breast and/or ovarian cancer. The two cases illustrate high sensitivity of breast MRI to detect clinically favorable early breast cancers in patients with high risk for breast cancer including patients with BRCA1 and BRCA 2 gene mutations. Lack of hyperintense T2 correlate should elevate the level of suspicion and biopsy should be performed in these high risk patients regardless of no corresponding sonographic correlate. 
+
+*References*: 
+1)	American Cancer Society recommendations for early breast cancer detection in women without breast symptoms. Revised April, 2015. 
+2)	American College of Radiology Practice Parameter for the Performance of Contrast Enhanced Magnetic Resonance Imaging (MRI) of the Breast. Amended 2014.
+3)	Pal T, Permuth-Wey J, Betts JA, et al. BRCA1 and BRCA2 mutations account for a large proportion of ovarian carcinoma cases. Cancer 2005; 104(12):2807–16.
+
+## risk cowden
+(a)<img src="images/LF1/risk_cowden/a1a.tif" style="width:21%">
+(b)<img src="images/LF1/risk_cowden/a1B.tif" style="width:21%">
+(c)<img src="images/LF1/risk_cowden/a1C.tif" style="width:21%">
+(d)<img src="images/LF1/risk_cowden/a1D.tif" style="width:21%">
+
+Figure 1 - Screening MRI performed in an 18-year-old patient with Cowden syndrome and multiple breast masses
+
+a) Sagittal T1-weighted FS and 
+b) T2-weighted FS images of the left breast demonstrate multiple masses with T1 hypointensity and T2 hyperintensity (arrowhead) and T1 hypointensity and T2 minimal to mild hyperintensity (arrow)
+c) T1-weighted FS post-contrast image showshomogeneous enhancement in these masses with 
+d) persistent delayed enhancement  color coded as blue on the CAD overlay. 
+
+(a)<img src="images/LF1/risk_cowden/a2a.tif" style="width:21%">
+(b)<img src="images/LF1/risk_cowden/a2b.tif" style="width:21%">
+
+Figure 2 - Sagittal post-contrast subtraction MIP images of the (a) left and (b) right breasts  show multiple masses in both breasts.  
+
+**Teaching points**:
+
+Cowden syndrome is an uncommon, autosomal dominant disease in patients with PTEN geneline mutation. It is characterized by multiple hamartomas of the skin, mucous membrane, brain, breast, thyroid, and gastrointestinal tract and increased susceptibility of breast cancer. The lifetime risk for breast carcinoma in Cowden syndrome is estimated to be 25–50%, compared to 12% in the general women population. 
+
+Patients with Cowden syndrome can have bilateral multiple fibroadenomas in the breast as illustrated in this case, which makes it challenging to detect breast cancers.  Fibroadenomas usually enhance homogeneously and have associated T2 hyper intensity and can demonstrate non-enhancing septations. The degree of enhancement and T2 signal intensity can vary.  The National Comprehensive Cancer Network (NCCN) recommends breast self-examination beginning at the age of 18 years and annual screening with breast MRI and mammography starting between 30 and 35 years of age and not earlier than 25 years.  After establishing a baseline, any change will indicate work up to exclude malignancy.  
+
+*References*: 
+
+1)	Peiro G, Adrover E, Guij J, et al. Synchronous Bilateral Breast Carcinoma in a Patient with Cowden Syndrome: A Case Report with Morphologic, Immunohistochemical and Genetic Analysis. The Breast Journal, Volume 16 November 1, 2010 77-81.
+2)	Mirinae Seo, MD1 , Nariya Cho, MD2 , Hye Shin Ahn, MD. Cowden Syndrome Presenting as Breast Cancer: Imaging and Clinical Features. Korean J Radiol 2014;15(5):586-590
+
+##risk ph recurrence
+(a)<img src="images/LF1/risk_ph_recurrence/a1a.tif" style="width:28%">
+(b)<img src="images/LF1/risk_ph_recurrence/a1B.tif" style="width:28%">
+(c)<img src="images/LF1/risk_ph_recurrence/a1C.tif" style="width:28%">
+
+Figure 1 - MRI showing cancer recurrence at the lumpectomy bed in a patient with history of XXX breast conservation
+
+a) Sagittal T1-weighted FS pre-contrast and 
+b) T2-weighted FS images of the XXX breast demonstrate post radiation skin thickening (arrowheads) and the lumpectomy site, (arrows) which is heterogeneously T2 hyperintense
+c) Sagittal T1-weighted FS post-contrast image with CAD color overlay demonstrates irregular thick rim enhancement with washout kinetics (red, arrows) and adjacent background parenchymal enhancement with persistent kinetics (blue). 
+
+**Teaching Points**:
+
+It has been estimated that tumor recurrence rates is about 1-2% per year in women who underwent breast conservation.  It is usually discovered later than 18-24 months after treatment.  Detection of treatment failure in these women while it is still asymptomatic improves relative survival by 27-47%.  
+
+Lumpectomy site is a common site of recurrence as illustrated in this case.   Patients with recurrence following lumpectomy of the original cancer and radiation are usually treated with salvage mastectomy. Breast MRI has a high sensitivity in the detection of breast cancer as high as 94–100%. MRI screening of women with only a personal history of breast cancer was clinically valuable finding malignancies in 12% of the patients in a published study.  However, personal history is generally not an accepted indication for screening breast MRI. 
+
+*References*: 
+
+1)	Brennan S, Liberman L, Dershaw D, et al. Breast MRI Screening of Women With a Personal History of Breast CancerAJR 2010; 195:510–516. 
+2)	Chansakul T,  Lai KC,. Slanetz PJ. The Postconservation Breast: Part 2, Imaging Findings of Tumor Recurrence and Other Long-Term Sequelae. AJR 2012; 198:331–343
+

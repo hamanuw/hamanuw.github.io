@@ -1,0 +1,75 @@
+---
+title: "Topic VII - LF1"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+## residual dz 1
+(a)<img src="images/LF1/residual_dz1/a1a.tif" style="width:21%">
+(b)<img src="images/LF1/residual_dz1/a1b.tif" style="width:21%">
+(c)<img src="images/LF1/residual_dz1/a1c.tif" style="width:21%">
+(d)<img src="images/LF1/residual_dz1/a1d.tif" style="width:21%">
+
+Figure 1 - Surveillance breast MRI performed on a patient with history of  right mastectomy and more recent left breast conservation with residual scar tissue mimicking recurrence
+
+a) Sagittal T1-weighted FS post-contrast image of the left breast demonstrates rim enhancement outlining the surgical cavity (arrows) without suspicious enhancement to indicate recurrent disease. Note the protruding inframammary fold (arrowheads) secondary to suboptimal coil positioning
+b,c) Sagittal and axial T1-weighted FS post-contrast images of the medial right mastectomy site demonstrate an apparent irregular mass
+d) Corresponding axial post-contrast subtraction image demonstrates no significant enhancement in this region, consistent with benign mastectomy scar (arrows). Note the ghosting artifact of the left breast (arrowheads).
+
+
+**Teaching Points**: 
+
+Breast MRI has been an adjunctive imaging tool in pre-surgical planning for mammographically occult additional disease as well as the evaluation of residual disease in patients whose pathology specimens demonstrate close or positive margins. In breast-conserving surgery, positive margins have been reported in 32-63% of cases of breast cancer and associated with increased long-term risk of cancer recurrence in the ipsilateral breast. However, the outcome of patients with close margins at excision remains controversial.  The case illustrates normal expected appearance of the post-surgical cavity without associated suspicious enhancement. 
+
+*References*: 
+1)	Janie M. Lee, Susan G. Orel1 Brian J. Czerniecki. MRI Before Reexcision Surgery in Patients with Breast Cancer. AJR 2004;182:473–480
+2)	ACR PRACTICE PARAMETER FOR THE PERFORMANCE OF CONTRASTENHANCED MAGNETIC RESONANCE IMAGING (MRI) OF THE BREAST. Amended 2014 (Resolution 39). 
+3)	Cowen D, Houvenaeghel G, Bardou V-J, et al. Local and distant failures after limited surgery with positive margins and radiotherapy for nodenegative breast cancer. Int J Radiat Oncol Biol Phys 2000;47:305–312
+
+## residual dz 2
+(a)<img src="images/LF1/residual_dz2/a1a.tif" style="width:21%">
+(b)<img src="images/LF1/residual_dz2/a1b.tif" style="width:21%">
+(c)<img src="images/LF1/residual_dz2/a1c.tif" style="width:21%">
+(d)<img src="images/LF1/residual_dz2/a1d.tif" style="width:21%">
+
+Figure 1 - MRI performed on a patient with IDC status post recent lumpectomy with positive surgical margins
+
+a) Axial T2-weighted FS and 
+b) T1-weighted FS pre-contrast images demonstrate a T1 hypointense and T2 hyperintense lumpectomy cavity (arrows) in the retroareolar left breast
+c) Axial post-contrast subtraction image demonstrates a thin rim of enhancement outlining the lumpectomy cavity (arrows) as well as irregular enhancing masses (arrowheads) posterior and medial to the lumpectomy cavity with 
+d) washout kinetics on CAD analysis.
+
+**Teaching Points**: 
+In breast-conserving surgery, positive margins have been reported in 32-63% of cases of breast cancer and breast MRI has been shown to be helpful in identifying residual disease, which can guide appropriate surgical management as illustrated in this case. Patients underwent wide posterior re-excision with subsequent negative margin on pathology.  
+
+*References*: 
+1)	Janie M. Lee, Susan G. Orel1 Brian J. Czerniecki. MRI Before Reexcision Surgery in Patients with Breast Cancer. AJR 2004;182:473–480
+2)	ACR PRACTICE PARAMETER FOR THE PERFORMANCE OF CONTRASTENHANCED MAGNETIC RESONANCE IMAGING (MRI) OF THE BREAST. Amended 2014 (Resolution 39). 
+3)	Cowen D, Houvenaeghel G, Bardou V-J, et al. Local and distant failures after limited surgery with positive margins and radiotherapy for nodenegative breast cancer. Int J Radiat Oncol Biol Phys 2000;47:305–312
+
+## residual dz 3
+(a)<img src="images/LF1/residual_dz2/a1a.tif" style="width:28%">
+(b)<img src="images/LF1/residual_dz2/a1b.tif" style="width:28%">
+(c)<img src="images/LF1/residual_dz2/a1c.tif" style="width:28%">
+
+(d)<img src="images/LF1/residual_dz2/a1d.tif" style="width:28%">
+(e)<img src="images/LF1/residual_dz2/a1e.tif" style="width:28%">
+
+Figure 1 - MRI performed in a patient with IDC status post left lumpectomy with positive surgical margins
+
+a) Sagittal T2-weighted FS and 
+b) T1-weighted FS pre-contrast images demonstrate a T1 isointense and T2 hyperintense surgical cavity (arrows) at the 12:00 axis of the left breast
+c) Sagittal post-contrast subtraction image demonstrates an oval enhancing mass (arrow) along the posterior inferior margin of the surgical cavity with 
+d) washout kinetics on CAD analysis, suspicious for residual disease
+e) a sagittal T1-weighted FS post-contrast image of the more lateral left breast demonstrates a separate 0.8 cm enhancing round mass(arrow) along the far posterior 3:00 axis, with ultrasound correlate (not shown) and subsequent biopsy yielding IDC.The patient underwent mastectomy with additional disease identified on surgical pathology, including areas corresponding to the findings on MRI. 
+
+**Teaching Points**: 
+Breast MRI has been shown to be helpful in identifying residual disease, which can guide appropriate surgical management.  This case illustrates not only residual disease near the lumpectomy cavity but also unsuspected additional ipsilateral disease occult on other imaging modalities. 
+
+*References*: 
+1)	Janie M. Lee, Susan G. Orel1 Brian J. Czerniecki. MRI Before Reexcision Surgery in Patients with Breast Cancer. AJR 2004;182:473–480
+2)	ACR PRACTICE PARAMETER FOR THE PERFORMANCE OF CONTRASTENHANCED MAGNETIC RESONANCE IMAGING (MRI) OF THE BREAST. Amended 2014 (Resolution 39). 
+3)	Cowen D, Houvenaeghel G, Bardou V-J, et al. Local and distant failures after limited surgery with positive margins and radiotherapy for nodenegative breast cancer. Int J Radiat Oncol Biol Phys 2000;47:305–312
+

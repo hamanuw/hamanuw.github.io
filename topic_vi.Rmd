@@ -1,0 +1,210 @@
+---
+title: "Topic VI - LF1"
+output: 
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+---
+
+## itc amyloid
+(a)<img src="images/LF1/itc_amyloid/a1a.tif" style="width:21%">
+(b)<img src="images/LF1/itc_amyloid/a1b.tif" style="width:21%">
+(c)<img src="images/LF1/itc_amyloid/a1c.tif" style="width:21%">
+(d)<img src="images/LF1/itc_amyloid/a1d.tif" style="width:21%">
+
+Figure 1 - Amyloidosis with associated dense calcifications on mammography,  limiting assessment
+
+a, b) Left  CC and  MLO 
+c, d) Right CC and  MLO images demonstrate bilateral dense calcifications.
+
+
+(a)<img src="images/LF1/itc_amyloid/a2a.tif" style="width:21%">
+(b)<img src="images/LF1/itc_amyloid/a2b.tif" style="width:21%">
+(c)<img src="images/LF1/itc_amyloid/a2c.tif" style="width:21%">
+(d)<img src="images/LF1/itc_amyloid/a2d.tif" style="width:21%">
+
+(e)<img src="images/LF1/itc_amyloid/a2e.tif" style="width:21%">
+(f)<img src="images/LF1/itc_amyloid/a2f.tif" style="width:21%">
+(g)<img src="images/LF1/itc_amyloid/a2g.tif" style="width:21%">
+(h)<img src="images/LF1/itc_amyloid/a2h.tif" style="width:21%">
+
+Figure 2 - Amyloidosis on breast MRI
+
+a,b,c,d) Selected sagittal T1-weighted sequences demonstrate large conglomerate hypointense areas (arrows) corresponding to areas of dense calcification on mammography
+e) A sagittal T2-weighted FS image demonstrates corresponding hypointense areas (arrows) with associated peripheral T2 hyperintensity
+f) Sagittal T1-weighted FS pre-contrast and 
+g) post-contrast images demonstrate mild T1 hyperintensity (arrows) and hetergenous rim enhancement (arrows) corresponding to the T2 hypertintense regions. No focal suspicious enhancement was identified
+h) CAD enhancement kinetics anaylsis demonstrates a predominantly progressive pattern.
+
+**Teaching Points**: 
+Primary breast amyloidosis is rare, and breast involvement is usually part of the systemic disease. Similar to amyloid deposits elsewhere in the body, calcifications can develop in the breast. Mammographic features of breast amyloidosis include irregular or circumscribed mass with coarse dystrophic shaped calcifications (Figure 1). On MRI examination, lesions generally  demonstrates decreased T1 signal intensity with associated increased signal on the T2-weighted images corresponding with edema and inflammation. Delayed progressive enhancement pattern is usually noted on the post contrast images. Important to note, core biopsy is recommended in most cases to confidently exclude co-existent malignancy.
+
+*References*: 
+
+1)	Eghtedari M, Dogan B, Gilcrease M, et al. Imaging and Pathologic Characteristics of Breast Amyloidosis. The Breast Journal, Volume 21 Number 2 2015 197-199. 
+2)	Díaz-Bustamante T, Iríbar M, Vilarrasa A, et al. Primary Amyloidosis of the Breast Presenting Solely as Microcalcifications AJR 2001;177:903–904.  
+3)	O’Brien J, Aherne S, McCormack O, et al. MRI Features of Bilateral Amyloidosis of Breast. The Breast Journal, Volume 19 Number 3, 2013 338-339.
+
+## itc Desmoid 
+(a)<img src="images/LF1/itc_desmoid/a1a.tif" style="width:21%">
+(b)<img src="images/LF1/itc_desmoid/a1b.tif" style="width:21%">
+(c)<img src="images/LF1/itc_desmoid/a1c.tif" style="width:21%">
+(d)<img src="images/LF1/itc_desmoid/a1d.tif" style="width:21%">
+
+Figure 1 - Desmoid tumor
+
+a) Sagittal T1-weighted FS non-contrast image 
+b) Corresponding T2-weighted FS image demonstrate an oval, circumscribed T1 and T2 hyperintense mass (arrows) in the lower breast
+c) Sagittal post-contrast subtraction image 
+d) Corresponding CAD enhancement kinetic analysis demonstrate a circumscribed, homogeneously enhancing mass (arrows) with progressive enhancement kinetics. 
+
+**Teaching Points**:
+
+Desmoid tumor, also known as Fibromatosis of the breast, is a rare benign entity, accounting for only 0.2% of all breast tumors. It is characterized by low grade uniform spindle cell proliferations carrying no malignant potential; however, it has shown a significant risk for local recurrence. Therefore, the current management of Desmoid tumors of the breast favors a wide excision with clear margins. The mammographic and sonographic features mimic those of malignancy. On MR imaging, Desmoid tumors can appear as an ill-defined or circumscribed mass with low to intermediate signal intensity on the T1-weighted images and increased signal on the T2-weighted. Progressive enhancement kinetics is usually seen on the dynamic contrast imaging. Although those features are nonspecific, MRI can be useful to show chest wall involvement important for surgical planning. 
+
+*References*: 
+
+1)	Ebrahim L, Parry J, Taylor DB. Fibromatosis of the breast: A pictorial review of the imaging and histopathology findings. Clinical Radiology 69 (2014) 1077-1083. 
+2)	Ha K, Deleon P, Hamilton R. Breast Fibromatosis mimicking breast carcinoma. Proc (Bayl Univ Med Cent). 2013 Jan; 26(1):22-24. 
+3)	Erguvan-Dogan B, Dempsey P, Ayyar G, et al. Primary Desmoid Tumor (Extra-abdominal fibromatosis) of the breast. AJR 2005; 185:488-489.
+
+## itc HIV 
+(a)<img src="images/LF1/itc_HIV/a1a.tif" style="width:40%">
+(b)<img src="images/LF1/itc_HIV/a1b.tif" style="width:40%">
+
+Figure 1 - Bilateral lymphadenopathy secondary to HIV infection
+
+a) Sagittal post-contrast subtraction image of the right breast demonstrates multiple enlarged right axillary lymph nodes (arrows) which show 
+b) Expected washout pattern on CAD kinetics analysis. 
+
+(a)<img src="images/LF1/itc_HIV/2.tif" style="width:40%">
+
+Figure 2 - Left breast post-contrast MIP also showing enlarged left axillary lymph nodes. 
+
+**Teaching Points**: 
+
+Multiple bilateral enlarged axillary lymph nodes may incidentally be seen on screening mammogram or MRI in female patients infected with HIV. Other common causes of bilateral axillary lymphadenopathy include sarcoidosis, rheumatoid arthritis, lymphoma (CLL) and leukemia. Obtaining thorough clinical history from patients provides critical information to guide their management. In the absence of a systemic disease, MRI of the breast could be indicated to evaluate for occult breast malignancy. 
+
+*References*: 
+
+1)	Gorken S B, O’Connell A. Abnormal axillary lymph nodes on negative mammograms: causes other than breast cancer. Diagn Interv Radiol 2012; 18:473-479.
+
+2)	Örgüç S, Başara I, Pekindil G, et al.  Contribution of Kinetic Characteristics of Axillary Lymph Nodes to the Diagnosis in Breast Magnetic Resonance Imaging. Balkan Med J. 2012 Sep; 29(3): 285–289.
+
+## itc lymphoma
+(a)<img src="images/LF1/itc_lymphoma_hist/a1a.tif" style="width:40%">
+(b)<img src="images/LF1/itc_lymphoma_hist/a1b.tif" style="width:40%">
+
+(c)<img src="images/LF1/itc_lymphoma_hist/a1c.tif" style="width:40%">
+(d)<img src="images/LF1/itc_lymphoma_hist/a1d.tif" style="width:40%">
+
+(e)<img src="images/LF1/itc_lymphoma_hist/a1e.tif" style="width:40%">
+(f)<img src="images/LF1/itc_lymphoma_hist/a1f.tif" style="width:40%">
+
+Figure 1 - Breast lymphoma
+
+a) Sagittal T1-weighted FS and 
+b) T2-weighted FS images demonstrate T1 iso- to mildly hypointense and T2 iso- to hyperintense masses throughout the breast (arrows)
+c, d) T1-weighted FS post-contrast and post-contrast subtraction
+e) CAD kinetic analysis images demonstrate heterogeneously enhancing irregular masses (arrows) with progressive enhancement kinetics
+f) A post-contrast MIP demonstrates the multiple enhancing irregular masses (arrows).
+
+**Teaching Points**: 
+
+Lymphoma of the breast is uncommon and it constitutes 0.04% to 0.5% of malignant breast neoplasms.   The small amount of lymphoid tissue in the breast accounts for the rarity of primary breast Lymphoma when compared with other organs. Differentiating primary from secondary lymphoma remains challenging, however, the presence of breast tissue in or adjacent to the lymphomatous infiltrate, the absence of concurrent nodal disease (except for the ipsilateral axillary lymph nodes), and the absence of a history of lymphoma involving other organs are suggestive of primary disease.  
+
+Mammographically, lymphoma typically presents as a large circumscribed or indistinctly marginated mass without associated calcifications or architectural distortion that is usually seen with primary breast carcinoma. On ultrasound it can be highly hypoechoic mimicking a cyst. On MR imaging, the mass is usually iso to hypointense on T1-weigthed imaging and iso to hyperintense on T2-weighted imaging with progressive enhancing kinetics on dynamic contrast imaging as seen in Figure 1e. 
+
+*References*: 
+
+1)	Meerkotter D, Rubin G, Joske F, et al. Primary Breast Lymphoma: A Rare Entity. J Radiol Case Rep. 2011; 5(5): 1-9. 
+2)	Irshad A, Ackerman S, Pope T, et al. Rare Breast Lesions: correlation of Imaging and Histologic Freatures with WHO Classificaiton. RadioGraphics 2008; 28:1399-1414. 
+3)	Rizzo S, Preda L, Villa G, et al. Magnetic Resonance Imaging of Primary Breast Lymphoma. Radiolmed (2009) 114: 915-924.
+
+## itc melanoma
+(a)<img src="images/LF1/itc_melanoma/a1A.tif" style="width:21%">
+(b)<img src="images/LF1/itc_melanoma/a1b.tif" style="width:21%">
+(c)<img src="images/LF1/itc_melanoma/a1c.tif" style="width:21%">
+(d)<img src="images/LF1/itc_melanoma/a1d.tif" style="width:21%">
+
+Figure 1 - Metastatic melanoma to the left breast on breast MRI. The patient was status post surgical resection of a melanoma 1 year prior, with findings in the left breast seen incidentally on an abdominal MRI and further evaluated on a dedicated breast MRI
+
+a,b) Selected sagittal post-contrast subtraction images of the left breast demonstrate 3 mm and 4 mm enhancing foci (arrows) in the upper inner mid left breast
+c) The 3 mm enhancing focus has a T1 hyperintense correlate on the T1-weighted FS non-contrast image
+d) The 4 mm enhancing focus has no corresponding signal abnormality on the T1-weighted FS non-contrast image
+
+(a)<img src="images/LF1/itc_melanoma/a2a.tif" style="width:40%">
+(b)<img src="images/LF1/itc_melanoma/a2b.tif" style="width:40%">
+
+Figure 2 - Metastatic melanoma on targeted left breast ultrasound
+
+a, b) Grayscale and color Doppler ultrasound images of the left breast demonstrate two irregular hypoechoic masses with internal vascularity, corresponding to the breast MRI findings.  Ultrasound guided core needle biopsy yielded metastatic melanoma at both sites. 
+
+**Teaching points**:
+
+Although metastases to the breast is rare, melanoma is among the most commonly reported primary tumors to metastasize to the breast and should be suspected in patients with  a prior history of melanoma even years after the primary tumor has been removed.  Melanoma is typically T1 hyperintense secondary to hemorrhage or melanin but can be variable as illustrated in this case.  T2 weighted signal characteristic is typically hypointense. Post gadolinium contrast appearance is typically heterogeneous or demonstrate peripheral rim enhancement. 
+
+*References*: 
+1) Ravdel L, Robinson WA, Lewis K, et al. Metastatic melanoma in the breast: a report of 27 cases. J Surg Oncol. 2006 Aug 1;94(2):101-4.
+2) Loffeld A, Marsden JR.  Management of melanoma metastasis to the breast: case series and review of the literature. Br J Dermatol. 2005 Jun;152(6):1206-10.
+
+## itc pheochromocytoma
+(a)<img src="images/LF1/itc_pheochromocytoma/a1A.tif" style="width:21%">
+(b)<img src="images/LF1/itc_pheochromocytoma/a1B.tif" style="width:21%">
+(c)<img src="images/LF1/itc_pheochromocytoma/a1C.tif" style="width:21%">
+(d)<img src="images/LF1/itc_pheochromocytoma/a1D.tif" style="width:21%">
+
+Figure 1 - Extra-adrenal pheochromoytoma. The patient had a history of pheochromocytoma status post resection 4 years ago with recent surveillance nuclear medicine scan showing uptake in the left breast. Breast MRI was performed for further evaluation
+
+a) Sagittal T1-weighted FS pre-contrast and 
+b) corresponding T2-weighted FS images of the left breast demonstrate a T1 isointense and heterogeneously T2 hyperintense subareolar mass (arrows)
+c) Corresponding T1-weighted FS post-contrast image demonstrates an intensely homogeneously enhancing 2.9 cm irregular mass in the subareolar region with
+d) Central washout pattern on CAD kinetics analysis.  
+
+**Teaching points**: 
+
+Pheochromocytomas are an uncommon tumor of the adrenal gland. The tumors generally follow a 10% rule: 
+
+- 10% are extra-adrenal, as illustrated in this case. 
+- 10% are bilateral
+- 10% are malignant
+- 10% are found in children
+- 10% are familial
+- 10% are not associated with hypertension
+- 10% contain calcification
+
+On MRI, Pheochromocytoma has been described as an intensely enhancing mass having characteristic high signal intensity on T2-weighted imaging. The T2 signal hyperintensity is typically heterogeneous as illustrated in our case.   Previously described light bulb bright signal on T2-weighted imaging, has been shown to be neither specific nor sensitive for Pheochromocytoma.  A characteristic salt-and-pepper pattern has also been described.  
+
+
+*References*: 
+
+1)	Elsayes K, Narra V, Leyendecker J, et al. MRI of Adrenal and Extraadrenal Pheochromocytoma. AJR. March 2005, Volume 184, Number 3
+2)	Leung K, Stamm M, Raja A et-al. Pheochromocytoma: the range of appearances on ultrasound, CT, MRI, and functional imaging. AJR Am J Roentgenol. 2013;200 (2): 370-8.
+
+## itc sarcoma 
+(a)<img src="images/LF1/itc_sarcoma/a1a.tif" style="width:28%">
+(b)<img src="images/LF1/itc_sarcoma/a1b.tif" style="width:28%">
+
+(c)<img src="images/LF1/itc_sarcoma/a1c.tif" style="width:28%">
+(d)<img src="images/LF1/itc_sarcoma/a1d.tif" style="width:28%">
+(d)<img src="images/LF1/itc_sarcoma/a1e.tif" style="width:28%">
+
+Figure 1 
+
+a,b) Sagittal T1-weighted FS pre-contrast images and 
+c) sagittal T2-weighted FS image demonstrate irregular masses that are heterogeneously T1 hypointense to isointense and heterogeneously T2 hyperintense.  These masses also contain irregular areas of T1 hyperintensity (arrows) reflecting the hemorrhagic nature of the tumors and their markedly heterogeneous architecture. Cystic cavities (arrow-heads) representing venous lakes are present on T2 images. Marked enhancement of the masses (arrows) is noted on the d) sagittal T1-weighted FS post-contrast image, and 
+e) CAD analysis demonstrates washout enhancement kinetics
+
+**Teaching points**:
+
+Angiosarcoma of the breast is a rare malignancy of endovascular origin. It accounts for about 0.04% of all malignant breast tumors and 8% of breast sarcomas.  It usually affects younger women in their third and fourth decade. Angiosarcoma of the breast tends to metastasize hematogenously, rather than lymphogenously and therefore, metastasis to axillary lymph nodes is very rare.  The prognosis of angiosarcoma is thought to depend on the histologic grade. Patients with a higher-grade lesion are more prone to develop a recurrence and have a lower survival rate than are those with a lower-grade lesion. 
+Misdiagnosis of Angiosarcoma is not uncommon and one of the reasons is the variety of possible clinical presentations including mammographic and sonographic findings.  Identifying a mass on mammography is difficult because angiosarcoma affects young women who have denser breast tissue. Associated skin thickening and calcifications maybe seen. Ultrasound tends to be nonspecific and only seems to have equivocal additional value if a mass is visible at mammography. 
+
+On MRI, angiosarcomas are usually lobular-shaped masses with indistinct borders. The periphery of the mass demonstrates a very bright signal on the T2W images which likely represents the presence of vascular channels containing slow-flowing blood. Angiosarcomas enhance intensely with washout kinetic features at dynamic imaging. Cystic cavities representing venous lakes are characteristic features as seen in the example above. 
+
+*References*: 
+
+1)	Yang WT, Hennessy BT, Dryden MJ, et al. Mammary Angiosarcomas: Imaging Findings in 24 Patients. Radiology 2007; 242:725–734. 
+2)	Lim RF, Goei R. Best Cases from the AFIP Angiosarcoma of the Breast. RadioGraphics 2007; 27:S125–S130
+3)	Kikawa Y, Konishi Y, Nakamoto Y. Angiosarcoma of the Breast – Specific Findings of MRI. Breast Cancer Vol. 13 No. 4 October 2006
+
