@@ -1,0 +1,84 @@
+---
+title: "Topic IX - LF1"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+## 4 cad
+(a)<img src="images/LF1/4_cad/1A.tif" style="width:21%">
+(b)<img src="images/LF1/4_cad/1B.tif" style="width:21%">
+(c)<img src="images/LF1/4_cad/1C.tif" style="width:21%">
+(d)<img src="images/LF1/4_cad/1D.tif" style="width:21%">
+
+Figure 1 - MRI T1-weighted post-contrast dynamic sequences
+
+a) T1-weighted pre-contrast
+b) T1-weighted post-contrast time point 1
+c) T1-weighted post-contrast time point 2
+d) T1-weighted post-contrast time point 3.
+
+(d)<img src="images/LF1/4_cad/2D.tif" style="width:21%">
+
+Figure 2 - MRI post-contrast subtraction images
+
+a) Time point 1
+b) Time point 2
+c) Time point 3
+d) Kinetics color analysis. 
+
+(a)<img src="images/LF1/4_cad/3A.tif" style="width:28%">
+(b)<img src="images/LF1/4_cad/3B.tif" style="width:28%">
+(c)<img src="images/LF1/4_cad/3C.tif" style="width:28%">
+
+(d)<img src="images/LF1/4_cad/3D.tif" style="width:28%">
+(e)<img src="images/LF1/4_cad/3E.tif" style="width:28%">
+
+Figure 3 - Magnified T1-weighted pre- and post-contrast dynamic images and signal intensity time curve
+
+a) Time point 0—Pre-contrast
+b) Time point 1—Rapid rise in signal intensity
+c) Time point 2—Decrease in signal intensity
+d) Time point 3—Continued decrease in signal intensity
+e) Computer generated curve.
+
+(a)<img src="images/LF1/4_cad/4A.tif" style="width:28%">
+(b)<img src="images/LF1/4_cad/4B.tif" style="width:28%">
+
+(c)<img src="images/LF1/4_cad/4C.tif" style="width:28%">
+(d)<img src="images/LF1/4_cad/4D.tif" style="width:28%">
+
+(e)<img src="images/LF1/4_cad/4E.tif" style="width:28%">
+(f)<img src="images/LF1/4_cad/4F.tif" style="width:28%">
+
+Figure 4 - Three breast MRI enhancement patterns
+
+(a,b) Type I curve: Progressive enhancement pattern. Continuous increase in signal intensity on subsequent post dynamic images. Color coded blue. 
+(c,d) Type II curve: Plateau pattern. Delayed signal intensity is within 10% of the initial post-contrast signal intensity. Color coded xxx.
+(e,f) Type III curve: Washout pattern. Relatively rapid uptake and high signal intensity initially followed by decreased enhancement on delayed phases. Color coded xxx. 
+
+(a)<img src="images/LF1/4_cad/5A.tif" style="width:28%">
+(b)<img src="images/LF1/4_cad/5B.tif" style="width:28%">
+(c)<img src="images/LF1/4_cad/5C.tif" style="width:28%">
+
+Figure 5 -
+
+a,b) Two examples of irregular masses demonstrating mixed kinetics curves
+c) Type 3 curve: A type III washout curve is reported as the most suspicious enhancement pattern shown by the mass. 
+
+**Teaching Points**: 
+
+In addition to the morphology assessment, enhancement kinetics pattern can be analyzed by obtaining at least 3 post contrast images. Typical breast tumor demonstrates intense and rapid uptake of contrast due to increased angiogenesis and washout of contrast due to increased capillary permeability and shunting.   Study by Kuhl et al (2005) showed kinetic analysis, specifically the signal intensity time course to be specific for malignancy. 
+
+The 3 types of signal intensity time course are (Fig 1-4):
+
+- Type 1 – progressive
+- Type 2 – Plateau
+- Type 3 - Washout   
+
+When mixed enhancement is present, the worst curve is reported (Fig 5). Of note, morphology assessment should outweigh the kinetics analysis in clinical decision making.  Morphology has higher specificity for malignancy.  
+
+*References*:
+
+1) Kuhl CK, Schild HH, Morakkabati N. Dynamic bilateral contrast-enhanced MR imaging of the breast: trade-off between spatial and temporal resolution. Radiology 2005; 236:789–800

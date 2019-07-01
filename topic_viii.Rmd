@@ -1,8 +1,9 @@
 ---
 title: "Topic VIII - LF1"
-author: "Zelos Zhu"
-date: "7/1/2019"
-output: html_document
+output:
+  html_document: 
+    toc: true
+    toc_float: true
 ---
 
 ## risk brca 1 dense MG
