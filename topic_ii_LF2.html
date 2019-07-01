@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Topic II - LF2</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Topics
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="LF1.html">LF1</a>
+    </li>
+    <li>
+      <a href="LF2.html">LF2</a>
+    </li>
+    <li>
+      <a href="LF3.html">LF3</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="mailto:&lt;rh2616@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Topic II - LF2</h1>
+
+</div>
+
+
+<div id="ca-axillary-lad-unknown-primary" class="section level2">
+<h2>ca axillary LAD unknown primary</h2>
+<p>(a)<img src="images/LF2/ca_axillary_LAD/a1a.tif" style="width:21%"> (b)<img src="images/LF2/ca_axillary_LAD/1B.tif" style="width:21%"> (c)<img src="images/LF2/ca_axillary_LAD/a1c.tif" style="width:21%"> (d)<img src="images/LF2/ca_axillary_LAD/1D.tif" style="width:21%"></p>
+<p>66-year-old woman with newly diagnosed left axillary metastatic disease with unknown primary. Mammogram and ultrasound evaluation were negative. Figure. (a) Sagittal T2-weighted fat suppressed image of the left breast. B) Corresponding sagittal T1-weighted fat suppressed image. (c) Corresponding sagittal post-contrast subtraction image with (d) CAD kinetics analysis color overlay.</p>
+<p>Metastatic axillary lymph nodes with occult primary malignancy.</p>
+<p>Figure . (a) Sagittal T2-weighted fat-suppressed image of the left breast shows several T2 hyperintense enlarged axillary lymph nodes (arrows) corresponding to the known malignancy. (c) Sagittal post-contrast subtraction image shows a 1.2 cm irregular enhancing mass in the mid left breast suspicious for malignancy. Subsequent MRI guided biopsy yielded invasive ductal carcinoma.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Breast MRI is the most sensitive imaging modality for the detection of clinically occult breast cancer in patients with malignant axillary adenopathy. Breast MRI can detect an otherwise mammographically and sonographically occult breast cancer in over 60% of patients. Routine application of breast MRI in occult breast cancer can impact clinical management including the possibility of breast conserving surgery. This is one of the generally accepted clinical indication for breast MRI.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Olson Jr JA, Morris EA, Van Zee KJ, et al. Magnetic resonance imaging facilitates breast conservation for occult breast cancer.Ann Surg Oncol 2000;7 (6):411–5.</li>
+<li>Orel SG, Weinstein SP, Schnall MD, et al. Breast MR imaging in patients with axillary node metastases and unknown primary malignancy. Radiology 1999; 212 (2):543–9</li>
+<li>J. de Bresser, B. de Vos, F. van der Ent, et al. Breast MRI in clinically and mammographically occult breast cancer presenting with an axillary metastasis: A systematic review. EJSO 36 (2010) 114-119</li>
+</ol>
+</div>
+<div id="ca-dense-breast---38-year-old-with-palpable-left-breast-lump." class="section level2">
+<h2>ca Dense breast - 38-year-old with palpable left breast lump.</h2>
+<p>(a)<img src="images/LF2/ca_dense_breast/1A.tif" style="width:21%"> (b)<img src="images/LF2/ca_dense_breast/1B.tif" style="width:21%"> (c)<img src="images/LF2/ca_dense_breast/1C.tif" style="width:21%"> (d)<img src="images/LF2/ca_dense_breast/1D.tif" style="width:21%"></p>
+<p>(e)<img src="images/LF2/ca_dense_breast/a1e.tif" style="width:21%"> (f)<img src="images/LF2/ca_dense_breast/a1f.tif" style="width:21%"></p>
+<p>Figure 1. Mammogram. (a,b) Bilateral MLO and (c,d) CC views. (e) Left spot compression CC and (f) MLO views.</p>
+<p>(a)<img src="images/LF2/ca_dense_breast/a1a.tif" style="width:40%"> (b)<img src="images/LF2/ca_dense_breast/a1b.tif" style="width:40%"></p>
+<p>Figure 2. Ultrasound. (a) Color Doppler image of the outer left breast.(b) Grayscale image of the left axilla.</p>
+<p>(a)<img src="images/LF2/ca_dense_breast/a3a.tif" style="width:21%"> (b)<img src="images/LF2/ca_dense_breast/a3b.tif" style="width:21%"> (c)<img src="images/LF2/ca_dense_breast/a3c.tif" style="width:21%"> (d)<img src="images/LF2/ca_dense_breast/a3d.tif" style="width:21%"></p>
+<p>Figure 3. (a) Axial T1-weighted fat suppressed post-contrast image of both breasts. (b,c) Selected sagittal T1-weighted fat suppressed post-contrast images of the outer left breast and (d) of the axilla.</p>
+<p>Extensive malignancy better appreciated on MRI in a patient with dense parenchyma.</p>
+<p>Figure 1. ( A vague asymmetry is present underlying the palpable marker (triangle) in the upper outer left breast, better delineated on the (e) CC spot compression view (arrows) than on the (b) MLO spot compression view (arrows).</p>
+<p>Figure 2. (a) Targeted ultrasound of the upper outer left breast shows vague hypoechoic areas (arrows) with increased vascularity likely corresponding to the mammographic finding. (b) Abnormal left axillary lymph nodes were also identified. A representative area in the left breast and an axillary lymph node underwent ultrasound guided biopsy yielding invasive ductal carcinoma, not otherwise specified with axillary metastasis.</p>
+<p>Figure 3. (a) Axial T1-weighted fat suppressed post-contrast image shows a large irregular mass (arrows) in the outer mid to posterior left breast spanning 4.2 cm in transverse dimension. Localizing clip artifact (arrow head) is noted in the outer aspect of the mass. (b,c) The mass (arrows) spans 7.2 cm in AP dimension and 9.8 cm in CC dimension on the sagittal T1-weighted fat suppressed post-contrast images. Localizing clip artifact (arrowhead) is noted in the upper aspect of the mass. No adjacent pectoralis muscle enhancement is present to suggest involvement. (d) Two enlarged axillary lymph nodes are present on a sagittal T1-weighted fat suppressed post-contrast image, one of which (inferior) likely corresponds to the known metastatic disease. No suspicious finding was present in the contralateral breast (not shown). The patient underwent left mastectomy, with final pathology showing 9.3 cm of disease and 3 positive axillary lymph nodes.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>There is literature support for pre-operative MRI in patients with extremely dense and heterogeneously dense breasts. As illustrated in this case, the extensive malignancy is better delineated on the MRI compare to the mammogram in the setting of dense breasts. In addition, the sonographic findings were also vague without clear delineation of the extent of disease. The mastectomy specimen confirms the extent of disease best delineated by the breast MRI. It is important to note that breast MRI can also overestimate disease due to non-tumoral enhancement of the surrounding tissue related to inflammation and edema.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Van Goethem M, Schelfhout K, Dijckmans L, et al. MR mammography in the pre-operative staging of breast cancer patients with dense breast tissue: comparison with mammography and ultra-sound. Eur Radiol 2004; 14:809–8165.</li>
+<li>Behjatnia B, Sim J, Bassett L, et al. Does size matter? Comparison study between MRI, gross, and microscopic tumor sizes in breast cancer in lumpectomy specimens. Int J Clin Exp Pathol. 2010; 3(3): 303–309.</li>
+</ol>
+</div>
+<div id="ca-ilc" class="section level2">
+<h2>ca ILC</h2>
+<p>64 year old with newly diagnosed left breast malignancy. Breast MRI was performed for extent of disease evaluation.</p>
+<p>(a)<img src="images/LF2/ca_ILC/a1a.tif" style="width:21%"> (b)<img src="images/LF2/ca_ILC/1B.tif" style="width:21%"> (c)<img src="images/LF2/ca_ILC/a1c.tif" style="width:21%"> (d)<img src="images/LF2/ca_ILC/1D.tif" style="width:21%"></p>
+<p>Figure 1. Screening mammogram. (a) Left and (b) right MLO views. (c) Left and (d) right CC views.</p>
+<p>(a)<img src="images/LF2/ca_ILC/2A.tif" style="width:40%"> (b)<img src="images/LF2/ca_ILC/2B.tif" style="width:40%"></p>
+<p>Figure 2. Prior screening mammogram for comparison. (a) Left MLO and (b) CC views.</p>
+<p>(a)<img src="images/LF2/ca_ILC/a3a.tif" style="width:21%"> (b)<img src="images/LF2/ca_ILC/a3b.tif" style="width:21%"> (c)<img src="images/LF2/ca_ILC/a3c.tif" style="width:21%"></p>
+<p>(d)<img src="images/LF2/ca_ILC/a3d.tif" style="width:21%"> (e)<img src="images/LF2/ca_ILC/a3e.tif" style="width:21%"> (f)<img src="images/LF2/ca_ILC/a3f.tif" style="width:21%"></p>
+<p>Figure 3. (a) Axial T1-weighted image of both breasts. (b) Corresponding axial T2-weighted fat suppressed image. (c) Axial T1-weighted fat suppressed post-contrast image with (d) CAD kinetic analysis color overlay. (e,f) Contiguous sagittal T1-weighted fat suppressed post-contrast images of the outer left breast.</p>
+<p>Invasive lobular carcinoma.</p>
+<p>Figure 1. ( There is a new focal asymmetry in the upper outer posterior left breast spanning 4 cm on mammographic (a) MLO and (c) CC views. The focal asymmetry persisted on the spot compression views but no definite sonographic correlate was reported (not shown). The focal asymmetry underwent stereotactic biopsy yielding invasive lobular carcinoma.</p>
+<p>Figure 2. (a) Axial T1-weighted and (b) fat suppressed T2-weighted images demonstrate a T1 hypointense and T2 mildly hyperintense irregular region (arrows) in the upper outer left breast, spanning at least 7.8. Localizing clip artifact is seen within the medial aspect of this region (arrowhead), which yielded invasive lobular carcinoma at biopsy. Incidentally noted is curvilinear T2 hyperintensity (arrowheads) along the anterior right thorax consistent with trace pleural fluid. (c) There is irregular non-mass enhancement (arrows) on the axial T1-weighted fat suppressed post-contrast image in the upper outer left breast. (d) This shows persistent enhancement denoted by the color blue (arrow). (e,f) Sagittal T1-weighted fat suppressed post-contrast images further illustrate the disease extent (arrows).</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Breast MRI is commonly performed for extent of disease evaluation and pre-operative planning. However, it is currently not generally accepted by the surgical community due to unclear long term benefit in terms of patient survival outcome, especially in the setting of adjuvant chemo and radiation therapy. Breast MRI may be more important in patients who are relying only surgery for their treatment. In addition, there is literature support for performing pre-operative MRI in patients with invasive lobular cancer for better estimation of disease and additional finding especially in patients with dense breasts. This patient underwent wide excision yielding 8.2 cm of disease with negative margin on final pathology. Compared to the mammogram, the breast MRI gave more accurate estimation of disease in this case. It is important to note however that Breast MRI can over-estimate disease due to enhancement of tissue surrounding the tumor related to edema, inflammation and desmoplastic reaction. The invasive lobular carcinoma in this case demonstrated persistent benign appearing delayed enhancement pattern. This case illustrates the importance of utilizing morphology as the most important feature to be analyzed as kinetic enhancement pattern can be non-specific.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Mann RM, Hoogeveen YL, Blickmann JG, Boetes C. MRI compared to conventional diagnostic work-up in the detection and evaluation of invasive lobular carcinoma of the breast: a review of existing literature. Breast Cancer Res Treat 2008; 107:1–14</li>
+<li>Peters NH, van Esser S, van den Bosch MA, et al. Preoperative MRI and surgical management in patients with nonpalpable breast cancer: the MONET-randomized controlled trial. Eur J Cancer 2011; 47:879–886</li>
+<li>Mann RM, Loo CE, Wobbes T, et al. The impact of preoperative breast MR on the re-excision rate in invasive lobular carcinoma. Breast Cancer Res Treat 2010; 119:415–422</li>
+<li>Turnbull L, Brown S, Harvey I, et al. Comparative effectiveness of MRI in breast cancer (COMICE) trial: a randomized controlled trial. Lancet 2010; 375:563–571</li>
+<li>Morrow M. Magnetic resonance imaging in breast cancer. one step forward, two steps back? JAMA 2004; 292:2779–278</li>
+<li>Morris EA. Should we dispense with preoperative breast MRI? Lancet 2010; 375:528–530</li>
+</ol>
+</div>
+<div id="ca-ilc-mc" class="section level2">
+<h2>ca ILC MC</h2>
+<p>49 year old woman with newly diagnosed right breast malignancy. Breast MRI was performed for extent of disease evaluation.</p>
+<p>(a)<img src="images/LF2/ca_ILC_MC/a1a.tif" style="width:21%"> (b)<img src="images/LF2/ca_ILC_MC/a1b.tif" style="width:21%"> (c)<img src="images/LF2/ca_ILC_MC/1C.tif" style="width:21%"> (d)<img src="images/LF2/ca_ILC_MC/a1d.tif" style="width:21%"></p>
+<p>Figure 1. Mammogram. (a) Left and(b) right MLO views. (c) Left and (d) right CC views.</p>
+<p>(a)<img src="images/LF2/ca_ILC_MC/2.tif" style="width:40%"></p>
+<p>Figure 2. Targeted ultrasound image of the right breast.</p>
+<p>(a)<img src="images/LF2/ca_ILC_MC/a3a.tif" style="width:21%"> (b)<img src="images/LF2/ca_ILC_MC/a3b.tif" style="width:21%"> (c)<img src="images/LF2/ca_ILC_MC/a3c.tif" style="width:21%"> (d)<img src="images/LF2/ca_ILC_MC/a3d.tif" style="width:21%"></p>
+<p>Figure 3. (a) Sagittal post-contrast subtraction images of the medial right breast, (b) central right breast, and (c,d) lateral right breast.</p>
+<p>(a)<img src="images/LF2/ca_ILC_MC/a4a.tif" style="width:40%"> (b)<img src="images/LF2/ca_ILC_MC/a4b.tif" style="width:40%"></p>
+<p>Figure 4. (a) Targeted ultrasound images of the upper outer right breast and (b) retroareolar right breast.</p>
+<p>Invasive lobular carcinoma with multicentric disease identified on MRI.</p>
+<p>Figure 1. There is a focal asymmetry in the far posterior inferior and slightly medial right breast on (b) MLO and (d) CC mammographic views (arrows). The focal asymmetry persisted on the spot compression views (not shown) and ultrasound was performed for further evaluation. (See Figure 2.) An asymmetry (arrowhead) was also noted in the upper right breast without a definite correlate on the CC view, and no sonographic correlate was reported. (a) An asymmetry (arrow) is noted in the posterior lower left breast without a definite correlate on the CC view. The appearance was similar to prior mammograms, and the finding was considered benign.</p>
+<p>Figure 2. Targeted right breast ultrasound demonstrates a 2.5 cm irregular hypoechoic mass along the 5:00 axis corresponding to the mammographic focal asymmetry. This mass underwent biopsy yielding invasive lobular carcinoma.</p>
+<p>Figure 3. Sagittal T1-weighted post-contrast subtraction images of the right breast demonstrate (a) a 3.1 cm irregular mass (arrows) in the posterior 5:00 axis of the right breast with central localizing clip artifact (arrowhead), which yielded malignancy on biopsy.Additional suspicious enhancement is noted in (b) the retroareolar right breast (arrows) and (c,d) along the 10:00 -10:30 axis (arrows)..</p>
+<p>Figure 4. Second look ultrasound was performed for the additional MRI findings. (a) Targeted ultrasound of the upper outer right breast shows 2 adjacent mildly hypoechoic masses likely corresponding to the areas of 10:00-10:30 MRI enhancement (and, in retrospect, to the mammographic asymmetry). (b) Targeted ultrasound of the retroareolar right breast demonstrates a hypoechoic mass likely corresponding to the subareolar MRI enhancement. The 10:00 mass underwent ultrasound guided biopsy yielding invasive lobular carcinoma. This proved multicentric disease, and the patient underwent mastectomy rather than lumpectomy.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Pre-operative breast MRI can detect additional cancers in ipsilateral breast in 20-30% of the cases and contralateral breast in 5% of the cases impacting clinical management, especially in patient with invasive lobular cancer and dense breasts as illustrated in this case. It is important to note that pathology confirmation is needed to document multicentric disease despite suspicious appearance of additional findings on MRI. Sonographic features of certain malignancies can be subtle and breast MRI can help better localize the finding as shown in this case.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Lehman C, Gatsonis C., Kuhl C, et al. MRI Evaluation of the Contralateral Breast in Women with Recently Diagnosed Breast Cancer N Engl J Med 2007; 356:1295-1303</li>
+<li>Schnall MD, Blume J, Bleumke DA, et al. MRI detection of distinct incidental cancer in women with primary breast cancer studied in IBMC 6883. J Surg Oncol 2005; 92:32–38</li>
+<li>Mann RM, Loo CE, Wobbes T, et al. The impact of preoperative breast MR on the re-excision rate in invasive lobular carcinoma. Breast Cancer Res Treat 2010; 119:415–422</li>
+<li>Van Goethem M, Schelfhout K, Dijckmans L, et al. MR mammography in the pre-operative staging of breast cancer patients with dense breast tissue: comparison with mammography and ultra-sound. Eur Radiol 2004; 14:809–8165.</li>
+<li>Mann RM, Hoogeveen YL, Blickmann JG, Boetes C. MRI compared to conventional diagnostic work-up in the detection and evaluation of invasive lobular carcinoma of the breast: a review of existing literature. Breast Cancer Res Treat 2008; 107:1–14</li>
+</ol>
+</div>
+<div id="ca-medullary-carcinoma" class="section level2">
+<h2>ca medullary carcinoma</h2>
+<p>46 year old woman with newly diagnosed left breast malignancy. Breast MRI was performed for extent of disease evaluation.</p>
+<p>Figure 1. (a) Axial T1-weighted image of both breasts. (b) Corresponding axial T2-weighted fat suppressed image. (c) Corresponding axial T1-weighted fat suppressed post-contrast image with CAD kinetic analysis color overlay. (d) Axial post-contrast 3D MIP image.</p>
+<p>Figure 2. Mammogram. (a) CC and (b) MLO views of the left breast. (c) CC and (d) MLO spot compression views of the left breast.</p>
+<p>Figure 3. Targeted left breast ultrasound image.</p>
+<p>Medullary carcinoma.</p>
+<p>(a)<img src="images/LF2/ca_medullary_carcinoma/a1a.tif" style="width:21%"> (b)<img src="images/LF2/ca_medullary_carcinoma/a1b.tif" style="width:21%"> (c)<img src="images/LF2/ca_medullary_carcinoma/a1c.tif" style="width:21%"> (d)<img src="images/LF2/ca_medullary_carcinoma/a1d.tif" style="width:21%"></p>
+<p>Figure 1. (a) Axial T1-weighted and (b) fat suppressed T2-weighted images demonstrate a 2.6 cm T1 hypointense and T2 hyperintense circumscribed round mass in the posterior upper outer breast with central clip artifact from a biopsy which yielded malignancy. (c) Corresponding axial T1-weighted fat suppressed post-contrast image with CAD kinetic analysis shows rapid uptake of contrast with delayed washout color coded as red. (d) Axial post-contrast 3D MIP image shows the unifocal mass in the left breast. No other suspicious enhancement is present in ether breast or axilla.</p>
+<p>(a)<img src="images/LF2/ca_medullary_carcinoma/a2a.tif" style="width:40%"> (b)<img src="images/LF2/ca_medullary_carcinoma/a2b.tif" style="width:40%"></p>
+<p>Figure 2. (a,b) Mammogram shows a 2.5 cm partially obscured round mass (arrow) in the upper outer left breast.</p>
+<p><img src="images/LF2/ca_medullary_carcinoma/a3.tif" style="width:40%"></p>
+<p>Figure 3. Targeted ultrasound of the 2:00 axis of the left breast shows a partially circumscribed round mass with some irregular margins and marked posterior acoustic enhancement (arrows). This corresponds to the mammographic and MRI masses.The patient underwent ultrasound guided core biopsy yielding medullary carcinoma.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Medullary carcinoma of the breast is a rare type of invasive ductal breast cancer and accounts for ~3% of all breast cancers and can occur in younger women including 10% of cases in women under 35 years. On histology, medullary carcinomas have been classified as either typical or atypical. Atypical medullary carcinomas are now classified as invasive ductal carcinomas with medullary features. Patients with medullary carcinoma have a more favorable prognosis than those with atypical medullary carcinoma and non-medullary carcinoma. The morphologic features of medullary carcinomas and fibroadenomas can overlap. Mammographically, medullary carcinoma is a round, ovoid or lobular mass with ill-defined or circumscribed margins. On ultrasound, the mass can be either homogeneously hypo-echoic or hypo-echoic with mild heterogeneity. Posterior acoustic enhancement may be present, On MRI, medullary carcinomas appeared as masses with an oval or lobular shape and circumscribed margins. The tumors were iso- or hypointense on T1-weighted images and iso- or hyperintense on T2-weighted images relative to the surrounding breast tissue. Kinetics curve showed a rapid initial increase in enhancement and a washout or plateau delayed enhancement pattern. Many of the imaging features typical for medullary carcinoma were present in our case. The patient underwent breast conservation with final pathology; typical medullary carcinoma, stage T2,N0.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Jeong SJ, Lim HS, Lee JS, et al. Medullary carcinoma of the breast: MRI findings. AJR 2012 May;198(5):W482-7.</li>
+<li>Meyer JE, Amin E, Lindfors KK et-al. Medullary carcinoma of the breast: mammographic and US appearance. Radiology. 1989;170 (1): 79-82.</li>
+<li>Yoo JL, Woo OH, Kim YK et-al. Can MR Imaging contribute in characterizing well-circumscribed breast carcinomas? Radiographics. 2010;30 (6): 1689-702</li>
+</ol>
+</div>
+<div id="ca-mucinous" class="section level2">
+<h2>ca mucinous</h2>
+<p>59 year old woman with newly diagnosed left breast malignancy with axillary metastasis. Breast MRI was performed for extent of disease evaluation.</p>
+<p>Figure 1. (a) Sagittal T1-weighted fat suppressed post-contrast image of the mid left breast. (b) Corresponding sagittal T2-weighted fat suppressed image.</p>
+<p>Figure 2. (a) Sagittal T1-weighted fat suppressed post-contrast image of the outer left breast. (b) Corresponding sagittal T2-weighted fat suppressed image. (c) Corresponding sagittal T1-weighted fat suppressed pre-contrast image.</p>
+<p>Figure 3. (a) Sagittal T1-weighted fat suppressed post-contrast image of the medial left breast. (b) Corresponding sagittal T2-weighted fat suppressed image.</p>
+<p>Figure 4. Mammogram. (a) Left breast CC and (b) MLO views.</p>
+<p>Figure 5. Targeted ultrasound images of the (a) left upper outer breast and (b) left axilla.</p>
+<p>Figure 6. (a) Axial localizer image. (b) Corresponding axial T1-weighted fat suppressed delayed post-contrast image.</p>
+<p>Mucinous carcinoma.</p>
+<p>(a)<img src="images/LF2/ca_mucinous1/a1a.tif" style="width:40%"> (b)<img src="images/LF2/ca_mucinous1/a1b.tif" style="width:40%"></p>
+<p>Figure 1. (a) Sagittal T1-weighted fat suppressed post-contrast image demonstrates several large conglomerate irregular masses (arrows) occupying most of the mid to anterior breast with central clip artifact (arrowhead) from a biopsy which yielded invasive ductal carcinoma with mixed mucinous features. (b) Sagittal T2-weighted fat suppressed image shows these masses to have homogeneous high T2 signal, likely reflecting both the water content of mucin as well as areas of necrosis.</p>
+<p>(a)<img src="images/LF2/ca_mucinous1/a2a.tif" style="width:40%"> (b)<img src="images/LF2/ca_mucinous1/a2b.tif" style="width:40%"> (c)<img src="images/LF2/ca_mucinous1/a2c.tif" style="width:40%"></p>
+<p>Figure 2. (a) Sagittal T1-weighted fat suppressed post-contrast image of the outer breast shows the the irregular masses extending into the outer breast and superficially to the skin (arrows). Posteriorly, enlarged low axillary lymph nodes are present corresponding to the known metastases (arrows). (b) Sagittal T2-weighted fat suppressed image shows the masses and axillary lymph nodes to have homogeneous T2 hyperintensity (arrows). Both focal and diffuse skin enhancement and edema are present due to the combination of direct skin invasion and secondary obstruction from axillary adenopathy. (c) Sagittal T1-weighted fat suppressed pre-contrast image shows subareolar linear branching high signal intensity (arrows) representing mildly dilated ducts containing hemorrhagic or proteinaceous debris.</p>
+<p>(a)<img src="images/LF2/ca_mucinous1/a3a.tif" style="width:40%"> (b)<img src="images/LF2/ca_mucinous1/a3b.tif" style="width:40%"></p>
+<p>Figure 3. (a) Sagittal T1-weighted fat suppressed post-contrast image of the medial breast demonstrates an enlarged left internal mammary lymph node (arrow) with peripheral enhancement and (b) diffuse high T2 signal (arrow). The peripheral enhancement pattern suggests central necrosis. The PET/CT (not shown) demonstrated focal FDG uptake involving the left internal mammary lymph node, suspicious for metastatic disease.</p>
+<p>(a)<img src="images/LF2/ca_mucinous1/a4a.tif" style="width:40%"> (b)<img src="images/LF2/ca_mucinous1/a4b.tif" style="width:40%"></p>
+<p>Figure 4. (a) CC and (b) MLOmammographic images show large irregular masses occupying most of the upper outer left breast with associated diffuse skin thickening, axillary adenopathy, and cutaneous extension of the low density mass involving the upper breast (arrows).</p>
+<p>(a)<img src="images/LF2/ca_mucinous1/a5a.tif" style="width:40%"> (b)<img src="images/LF2/ca_mucinous1/a5b.tif" style="width:40%"></p>
+<p>Figure 5. (a) Sonography shows a partially imaged large hypoechoic mass with irregular margins in the upper outer left breast corresponding to the known malignancy. Mild posterior acoustic enhancement is present (arrows). (b) Irregular large hypoechoic lymph nodes are sonographically evident in the low axilla, corresponding to the known metastatic disease.</p>
+<p>(a)<img src="images/LF2/ca_mucinous1/a6a.tif" style="width:40%"> (b)<img src="images/LF2/ca_mucinous1/a6b.tif" style="width:40%"></p>
+<p>Figure 6. (a) Axial localizer image shows T2 hyperintense lesions in the right lower lobe of the lung. (b) Corresponding axial T1-weighted fat suppressed post-contrast image, shows enhancement of these lesions, suspicious for pulmonary metastases. In addition, enlarged left internal mammary and low axillary lymph nodes are seen (arrows). Subsequent biopsy confirmed metastatic disease.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Mucinous carcinoma of the breast is a rare form (2% of all breast cancers) of invasive ductal carcinoma and is sometimes called colloid carcinoma. The tumor is made up of abnormal cells within pools of mucin, a key component in the slimy, slippery mucus. It can histologically divided into pure mucinous breast cancer or mixed mucinous breast cancer. Mucinous carcinoma is extremely rare in men and in women, more common after menopause in 60s or early 70s. Mammographically, the presence of mucin results in a low-density and relatively well-defined lobular mass. Sonographically, mixed cystic and solid components, posterior acoustic enhancement, and micro-lobulated margins are commonly seen. On MRI, they can have very high signal intensity on T2-weighted images as illustrated in this case, which relates to the water component in mucin. Post contrast enhancement can be variable. Typically, a pure mucinous sub type carries a better prognosis compared to invasive ductal carcinoma NOS. Mixed mucinous carcinoma of the breast tend to have a more aggressive behavior than pure sub-type as illustrated in this case with distant metastasis.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Memis A, Ozdemir N, Parildar M et-al. Mucinous (colloid) breast cancer: mammographic and US features with histologic correlation. Eur J Radiol. 2000;35 (1): 39-43</li>
+<li>Santamaría G, Velasco M, Bargalló X et-al. Radiologic and pathologic findings in breast tumors with high signal intensity on T2-weighted MR images.</li>
+<li>Kawashima M, Tamaki Y, Nonaka T, et al. MR imaging of mucinous carcinoma of the breast. AJR 2002; 179:179-183</li>
+<li>Monzawa S, Yokokawa M, Sakuma T, et al. Mucinous carcinoma of the breast: MRI features of pure and mixed forms with histopathologic correlation. AJR 2009 Mar;192(3):W125-31.</li>
+</ol>
+</div>
+<div id="ca-mucinous-pure1" class="section level2">
+<h2>ca mucinous pure1</h2>
+<p>(a)<img src="images/LF2/ca_mucinous_pure1/a1a.tif" style="width:21%"> (b)<img src="images/LF2/ca_mucinous_pure1/a1b.tif" style="width:21%"> (c)<img src="images/LF2/ca_mucinous_pure1/a1c.tif" style="width:21%"> (d)<img src="images/LF2/ca_mucinous_pure1/a1d.tif" style="width:21%"></p>
+<p>Figure 1. (a) Sagittal and (c) axial T1-weighted fat suppressed post-contrast images show a 1.6 cm irregular mass (arrow) in the retro-areolar left breast. (c) Corresponding sagittal and (d) axial T2-weighted fat suppressed images show the mass to have high T2 signal.</p>
+<p>(a)<img src="images/LF2/ca_mucinous_pure1/a2a.tif" style="width:21%"> (b)<img src="images/LF2/ca_mucinous_pure1/a2b.tif" style="width:21%"> (c)<img src="images/LF2/ca_mucinous_pure1/a2c.tif" style="width:21%"></p>
+<p>(d)<img src="images/LF2/ca_mucinous_pure1/a2d.tif" style="width:21%"> (e)<img src="images/LF2/ca_mucinous_pure1/a2e.tif" style="width:21%"></p>
+<p>Figure 2. (a) CC and (b) MLO images of the left breast show a 1.5 cm partially circumscribed irregular mass in the slightly medial subareolar left breast which persists on (c,d) spot compression views. (e) Targeted left breast ultrasound demonstrates a corresponding 1.5 cm oval circumscribed homogeneously hypoechoic mass with posterior acoustic enhancement (arrow). The patient underwent ultrasound guided core biopsy yielding invasive ductal carcinoma, mucinous type.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Mucinous carcinoma of the breast is a rare form of invasive ductal carcinoma. Mammographically, the presence of mucin results in a low-density and relatively well-defined lobular mass and sonographically, the mass can appear homogeneously hypoechoic with posterior acoustic enhancement. On MRI, they can have very high signal intensity on T2-weighted images. All these imaging features are illustrated in this patient with a diagnosis of pure mucinous carcinoma. Pure mucinous sub-type carries a better prognosis with lower chance of axillary metastasis. The patient underwent breast conservation with final pathology of pure mucinous carcinoma, stage of T1N0.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Memis A, Ozdemir N, Parildar M et-al. Mucinous (colloid) breast cancer: mammographic and US features with histologic correlation. Eur J Radiol. 2000;35 (1): 39-43</li>
+<li>Santamaría G, Velasco M, Bargalló X et-al. Radiologic and pathologic findings in breast tumors with high signal intensity on T2-weighted MR images.</li>
+<li>Kawashima M, Tamaki Y, Nonaka T, et al. MR imaging of mucinous carcinoma of the breast. AJR 2002; 179:179-183</li>
+<li>Monzawa S, Yokokawa M, Sakuma T, et al. Mucinous carcinoma of the breast: MRI features of pure and mixed forms with histopathologic correlation. AJR 2009 Mar;192(3):W125-31.</li>
+</ol>
+</div>
+<div id="ca-mucinous-pure-2" class="section level2">
+<h2>ca mucinous pure 2</h2>
+<p>(a)<img src="images/LF2/ca_mucinous_pure1/a1a.tif" style="width:28%"> (b)<img src="images/LF2/ca_mucinous_pure1/a1b.tif" style="width:28%"> (c)<img src="images/LF2/ca_mucinous_pure1/a1c.tif" style="width:28%"></p>
+<p>Figure (a) Sagittal post-contrast subtraction image shows a 1.3 cm irregular mass (arrow) along the 12:00 axis of the left breast demonstrating (b) persistent enhancement color coded as blue on CAD. (c) Corresponding sagittal T2-weighted fat suppressed image shows the T2 hyperintense mass to be larger than the area of enhancement. The patient underwent ultrasound guided core biopsy yielding invasive ductal carcinoma, mucinous type.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Mucinous carcinoma of the breast is a rare form of invasive ductal carcinoma. On MRI, they can have very high signal intensity on T2-weighted images as illustrated in this case. In addition, post contrast enhancement is variable but can have benign appearing persistent enhancement pattern as seen in this patient. Pure mucinous sub-type carries a better prognosis with lower chance of axillary metastasis. The patient underwent breast conservation with final pathology of pure mucinous carcinoma, stage of T1N0.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Kawashima M, Tamaki Y, Nonaka T, et al. MR imaging of mucinous carcinoma of the breast. AJR 2002; 179:179-183</li>
+<li>Monzawa S, Yokokawa M, Sakuma T, et al. Mucinous carcinoma of the breast: MRI features of pure and mixed forms with histopathologic correlation. AJR 2009 Mar;192(3):W125-31.</li>
+</ol>
+</div>
+<div id="ca-neo-adj-partial-response" class="section level2">
+<h2>ca neo adj partial response</h2>
+<p>CASE: 48 year old woman with newly diagnosed right breast invasive ductal carcinoma NOS with axillary metastasis. Breast MRI was performed for extent of disease evaluation.</p>
+<p>Baseline images. Figure 1. (a) Axial T1-weighted fat suppressed pre- and (b) post-contrast images of the lower breasts with (c) CAD kinetic analysis color overlay.</p>
+<p>Figure 2. Axial post-contrast subtraction image at the level of the axillae.</p>
+<p>Figure 3. Axial T1-weighted fat suppressed post-contrast image at the level of nipples with CAD kinetic analysis color overlay.</p>
+<p>Images obtained 4 months later. Figure 4. (a) Axial T1-weighted fat-suppressed pre- and (b) post-contrast images of the lower breasts with (c) CAD kinetic analysis color overlay.</p>
+<p>Figure 5. Axial T1-weighted fat suppressed post-contrast image at the level of the axillae.</p>
+<p>Figure 6. Axial post-contrast subtraction image at the level of the nipples with CAD kinetic analysis color overlay.</p>
+<p>Partial treatment response of invasive ductal carcinoma following neoadjuvant chemotherapy.</p>
+<p>(a)<img src="images/LF2/ca_neoadj_pr/1A.tif" style="width:28%"> (b)<img src="images/LF2/ca_neoadj_pr/a1b.tif" style="width:28%"> (c)<img src="images/LF2/ca_neoadj_pr/a1c.tif" style="width:28%"></p>
+<p>Figure 1. (b)Baseline axial T1-weighted fat suppressed post-contrast image demonstrates a 3.1 cm round enhancing mass (arrow) (c) with suspicious delayed washout color coded red on CAD color overlay. An arrowhead identifies central clip artifact from a biopsy which yielded malignancy. No other suspicious finding was noted in either breast.</p>
+<p><img src="images/LF2/ca_neoadj_pr/a2.tif" style="width:40%"></p>
+<p>Figure 2. Axial post-contrast subtraction image shows an ipsilateral irregular enlarged axillary lymph node (arrow) corresponding to known metastatic disease at baseline.</p>
+<p><img src="images/LF2/ca_neoadj_pr/a3.tif" style="width:40%"></p>
+<p>Figure 3. Axial T1-weighted fat suppressed post-contrast image with CAD kinetic analysis shows marked background parenchymal enhancement at baseline.</p>
+<p>(a)<img src="images/LF2/ca_neoadj_pr/4A.tif" style="width:40%"> (b)<img src="images/LF2/ca_neoadj_pr/a4b.tif" style="width:40%"></p>
+<p>Figure 4. (b) Following neoadjuvant chemotherapy, axial T1-weighted fat suppressed post-contrast image shows decrease in the known right breast malignancy with a residual 1.5 cm area of less distinct non-mass enhancement (arrow). (c) Corresponding CAD color overlay shows a persistent delayed enhancement pattern color coded blue. Findings are consistent with a partial response to chemotherapy.</p>
+<p><img src="images/LF2/ca_neoadj_pr/a5.tif" style="width:40%"></p>
+<p>Figure 5.Axial T1-weighted fat suppressed post-contrast imagedemonstrates interval resolution of right axillary lymphadenopathy.</p>
+<p><img src="images/LF2/ca_neoadj_pr/a6.tif" style="width:40%"></p>
+<p>Figure 6. Axial post-contrast subtraction image with CAD color overlay shows a marked decrease in background parenchymal enhancement following neoadjuvant chemotherapy..</p>
+<p><strong>Teaching points</strong>:</p>
+<p>In patients undergoing neoadjuvant therapy, breast MRI provides the best correlation with final surgical pathology compared to physical examination, mammography, and sonography and is one of the generally accepted indication for getting a breast MRI evaluation. However, MRI may overestimate (6%) or underestimate (23%) residual disease in approximately 29% of the patients.</p>
+<p>RECIST guideline for tumor response: Complete Response (CR): Disappearance of all target lesions. Partial Response (PR): At least a 30% decrease in the sum of the Longest Diameter (LD) of target lesions. Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD. Progressive Disease (PD): At least a 20% increase in the sum of the LD of target lesions.</p>
+<p>The patient in our case demonstrates partial response to neoadjuvant therapy and on final surgical pathology showed 1.9 cm residual tumor and 2 positive axillary lymph nodes. , Neoadjuvant treatment can be effective in reducing locally advanced tumor and in certain cases breast conservation can become a surgical treatment option rather than mastectomy.<br />
+In patients with a good response, in addition to the reduction in size of tumor, change in enhancement pattern to persistent from washout pattern as well overall decrease in the amount of background parenchymal enhancement have been noted, as illustrated in this case.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Yeh E, Slanetz P, Kopans D, Prospective Comparison of Mammography, Sonography, and MRI in Patients Undergoing Neoadjuvant Chemotherapy for Palpable Breast Cancer AJR. 2005;184: 868-877.</li>
+<li>Partridge SC, Gibbs JE, Lu Y, Esserman LJ, Sudilovsky D, Hylton NM. Accuracy of MR imaging for revealing residual breast cancer in patients who have undergone neoadjuvant chemotherapy. AJR 2002; 179:1193-1199</li>
+<li>Eisenhauer EA, Therasse P, Bogaerts J, et al.(2009) New Response Evaluation Criteria in Solid Tumours: Revised RECIST guideline (version 1.1) Eur J Cancer 45:228–247.</li>
+</ol>
+</div>
+<div id="ca-papillary-carcinoma" class="section level2">
+<h2>ca papillary carcinoma</h2>
+<p>(a)<img src="images/LF2/ca_papillary_carcinoma/a1a.tif" style="width:28%"> (b)<img src="images/LF2/ca_papillary_carcinoma/a1b.tif" style="width:28%"> (c)<img src="images/LF2/ca_papillary_carcinoma/a1c.tif" style="width:28%"></p>
+<p>Figure 1. (a) Axial T1-weighted fat-suppressed and (b,c) axial T2-weighted fat suppressed images show a complex multi-cystic mass in the medial left breast with fluid-fluid level (arrows) and T1 and T2 hyperintense layers reflecting hemorrhage (arrowheads). Additional T2 hyperintense cystic components are noted in the far posterior medial breast associated with a T1 hypointense mass (arrowhead).</p>
+<p>(a)<img src="images/LF2/ca_papillary_carcinoma/a2a.tif" style="width:40%"> (b)<img src="images/LF2/ca_papillary_carcinoma/a2b.tif" style="width:40%"></p>
+<p>Figure 2) (a) Axial T1-weighted fat suppressed post-contrast image shows a solid mass (arrowhead) within the posterior aspect of the multi-cystic mass. Clip artifact (arrow) within this solid component is from a biopsy which yielded papillary carcinoma. (b) Axial post-contrast subtraction image reveals that the solid mass has mild enhancement. In addition diffuse adjacent enhancement (arrows) is present in the central and outer breast corresponding to an area of suspicious calcifications on mammography. Stereotactic biopsy of the calcifications yielded DCIS.The patient underwent left mastectomy with final pathology revealing intracystic papillary carcinoma and extensive DCIS. No axillary lymph node metastases were present.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Papillary carcinoma of the breast is a rare type of invasive ductal breast cancer and accounts for ~2% of all breast cancers and usually occurs in post menopausal women with average age of 65 years. Clinically can manifest as a palpable mass or nipple discharge occurring most commonly in the retro-areolar/sub-areolar location. Classified as papillary ductal carcinoma in situ, intracystic papillary carcinoma (ICPC) with or without invasion or solid papillary carcinoma (if no cystic component is present). Invasive elements are typically detected at the periphery of the lesion. Histologically, it is characterized by a frond-like growth pattern on a fibrovascular core lacking a myoepithelial layer. Mammographically, papillary carcinoma can present as a round, oval or lobulated mass with usually circumscribed margin. Sonographically, papillary carcinoma presents as a complex cystic mass with posterior acoustic enhancement or as hypoechoic solid mass. Increased vascularity is often present on color flow Doppler interrogation. On MRI, intracystic papillary carcinoma appears as complex cystic or multi-cystic masses with heterogeneous internal composition with enhancing nodular masses and variable fluid content. Hemorrhagic contents can be hyper-intense on both T1- and T2-weighted images and fluid-fluid levels may be seen as illustrated in our case. Serous contents can show T1 hypointensity and T2 hyperintensity. Post contrast images can show variable enhancement involving the cyst walls, septa, and mural nodules. Patients with papillary carcinoma have a more favorable prognosis than those with invasive ductal carcinoma NOS.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Liberman L, Feng TL, Susnik B. Case 35: Intracystic papillary carcinoma with invasion. Radiology. 2001;219 (3): 781-4.</li>
+<li>Rodríguez MC, Secades AL, Angulo JM. Best cases from the AFIP: Intracystic papillary carcinoma of the breast. Radiographics. 2010;30 (7): 2021-7.</li>
+<li>Soo MS, Williford ME, Walsh R et-al. Papillary carcinoma of the breast: imaging findings. AJR Am J Roentgenol. 1995;164 (2): 321-6.</li>
+<li>Wagner AE, Middleton LP, Whitman GJ. Intracystic papillary carcinoma of the breast with invasion. AJR Am J Roentgenol. 2004;183 (5): 1516.</li>
+</ol>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
