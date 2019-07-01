@@ -13,4 +13,4 @@ The topic is made up of the following components.
 * implant - DONE [Part V](topic_v.html)
 * itc - DONE [Part VI](topic_vi.html)
 * residual - DONE[Part VII](topic_vii.html)
-* risk - NOT DONE YET[Part VIII](topic_viii.html)
+* risk - DONE[Part VIII](topic_viii.html)
