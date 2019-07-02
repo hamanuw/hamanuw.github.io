@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Topic I - LF 3</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Topics
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="LF1.html">LF1</a>
+    </li>
+    <li>
+      <a href="LF2.html">LF2</a>
+    </li>
+    <li>
+      <a href="LF3.html">LF3</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="mailto:&lt;rh2616@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Topic I - LF 3</h1>
+
+</div>
+
+
+<div id="b9-abscess" class="section level2">
+<h2>b9 Abscess</h2>
+<p>History: 42-year-old patient with recurrent mastitis.</p>
+<p>(a)<img src="images/LF3/b9_abscess/a1a.tif" style="width:21%"> (b)<img src="images/LF3/b9_abscess/a1b.tif" style="width:21%"> (a)<img src="images/LF3/b9_abscess/a1c.tif" style="width:21%"> (b)<img src="images/LF3/b9_abscess/a1d.tif" style="width:21%"></p>
+<p>Figure -</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal fat-suppressed T1 and</li>
+<li>T2-weightedimages demonstrate an irregular T2 hyperintense collection (black arrowheads) with a thick heterogeneous signal rim (white arrowheads) and thickening and edema of the overlying skin (white arrowhead). Multiple punctate signal voids (black arrows) are present, reflectingair bubbles</li>
+<li>Sagittal T1-weighted fat-suppressed post-contrast image demonstrates thick rim enhancement (white arrows) with progressive enhancement kinetics on</li>
+<li>CAD color overlay.</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Breast abscess can result from unresolved local infection, obstruction of the duct near the nipple and acute, chronic or lactational mastitis. They are usually palpable, often associated with erythema, edema, and induration or overlying skin and pain.</p>
+<p>Depending on the water content of the collection, MR T2-weighted signal may vary. The overlying thickened skin may be intermediate or bright in signal depending on the degree of edema. Post contrast T1-weighted images usually demonstrate a nonenhancing central, round or irregular mass surrounded by an early intensely enhancing rim. Please note that abscess may be confused with malignancy because the enhancement kinetics of the rim and the thickening of the overlying skin. Therefore, if an atypical clinical course was suspected, a breast biopsy or skin punch biopsy should be promptly performed to exclude inflammatory breast carcinoma.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>FuP, Kurihara Y, Kanemaki Y, et al. High-Resolution MRI in Detecting Subareolar Breast Abscess. AJR 2007; 188:1568–1572.</li>
+<li>Trop I, Dugas A, David J, et al. Breast Abscesses: Evidence-based Algorithms for Diagnosis, Management, and Follow-up. RadioGraphics 2011; 31:1683–1699.</li>
+</ol>
+</div>
+<div id="b9-bpe" class="section level2">
+<h2>b9 BPE</h2>
+<p>History: Four patients illustrating the range of background parenchymal enhancement seen on breast MRI.</p>
+<p>(a)<img src="images/LF3/b9_BPE/a1a.tif" style="width:21%"> (b)<img src="images/LF3/b9_BPE/a1b.tif" style="width:21%"> (c)<img src="images/LF3/b9_BPE/a1c.tif" style="width:21%"> (d)<img src="images/LF3/b9_BPE/a1d.tif" style="width:21%"></p>
+<p>Figure a) Sagittal post-contrast 3D MIP image of the left breast demonstrates minimal background parenchymal enhancement. b) Sagittal post-contrast 3D MIP image of the right breast demonstrates mild background parenchymal enhancement. c) Sagittal post-contrast 3D MIP image of the right breast demonstrates moderate background parenchymal enhancement. d) Sagittal post-contrast 3D MIP image of the right breast demonstrates marked background parenchymal enhancement.</p>
+<p><strong>Teaching points</strong>:<br />
+The fifth edition of the ACR BI-RADS (Breast Imaging Reporting and Data System) Atlas, recommends the amount of BPE be categorized in the MRI report as “minimal”, “mild”, “moderate”, and “marked” to describe the volume and intensity of the BPE. Research into the association of BPE and breast cancer risk indicates likely increased risk for breast cancer which may be as high (3-4x) as more established risk associated with mammographic dense breasts.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Giess CS, Yeh ED, Raza S, Birdwell RL. Background parenchymal enhancement at breast MR imaging: normal patterns, diagnostic challenges, and potential for false-positive and false-negative interpretation. Radiographics. 2014;34(1):234-247.</li>
+<li>Morris EA, Comstock CE, Lee CH, et al. ACR BI-RADS® Magnetic Resonance Imaging. In: ACR BI-RADS® Atlas, Breast Imaging Reporting and Data System. Reston, VA, American College of Radiology; 2013.</li>
+<li>King V, Brooks JD, Bernstein JL, Reiner AS, Pike MC, Morris EA. Background parenchymal enhancement at breast MR imaging and breast cancer risk. Radiology. 2011;260(1):50-60.</li>
+</ol>
+</div>
+<div id="b9-brca-cellulitis" class="section level2">
+<h2>b9 brca cellulitis</h2>
+<p>History: 51-year-old woman undergoing high risk screening MRI.</p>
+<p>(a)<img src="images/LF3/b9_brca_cellulitis/1A.tif" style="width:40%"> (b)<img src="images/LF3/b9_brca_cellulitis/a1B.tif" style="width:40%"></p>
+<p>Figure:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Large field of view axial T2-weighted fat-suppressed and</li>
+<li>post-contrast subtraction images demonstrate edema and subcutaneous enhancement in the right lateral breast (arrows).</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Our case demonstrates an abnormal signal along the skin in the region of the right axillary tail with associated underlying prominent lymph nodes which was consistent with focal area of cellulitis. It is important to correlate clinically, specifically in high risk patients, with history and physical examination to exclude malignancy. If an atypical presentation was suspected, punch biopsy should be obtained. Also noted in this case, signal void artifact caused by an oversized field of view (FOV). Optimally, FOV should be limited to the area of the breasts while ensuring adequate coverage of the area of interest. A small FOV may reduce signal, results in inadequate coverage of breast tissue leading to wraparound artifact. Conversely, an oversized FOV will increase pixel size, includes extramammary organs in the examination and results in signal void artifact within the thorax.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Harvey JA, Hendrick RE, Coll JM, et al. Breast MR Imaging Artifacts: How to Recognize and Fix Them. RadioGraphics 2007; 27:S131–S145</li>
+<li>Yitta S, Joe BN, Wisner DJ, et al. Recognizing Artifacts and Optimizing Breast MRI at 1.5 and 3 T. American Journal of Roentgenology. 2013; 200: W673-W682.</li>
+</ol>
+</div>
+<div id="b9-hem-duct" class="section level2">
+<h2>b9 hem duct</h2>
+<p>History: 44-year-old woman undergoing high risk screening breast MRI.</p>
+<p>(a)<img src="images/LF3/b9_hem_duct/a1a.tif" style="width:28%"> (b)<img src="images/LF3/b9_hem_duct/a1b.tif" style="width:28%"> (c)<img src="images/LF3/b9_hem_duct/a1c.tif" style="width:28%"></p>
+<p>Figure - Intraductal proteinaceous/hemorrhagic material</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weighted fat-suppressed pre-contrast image demonstrates segmentally distributed linear high signal (arrows) in the lower breast. Although one could mistake the high signal in this region on</li>
+<li>the sagittal T1-weighted fat-suppressed post-contrast image for enhancement</li>
+<li>the post-contrast subtraction image shows that no enhancement is actually present..</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Normal ducts are usually invisible on MR imaging as they blend in within the background parenchyma. In cases of inflammation, infection or obstruction, protein or blood filled ducts will be visible on non-enhanced T1-weighted images as high-signal-intensity branching tubular structures without an associated enhancement. Therefore, subtraction images are very helpful and must be reviewed when pre-contrast images demonstrate hyperintense ductal pattern to exclude abnormal enhancement. Otherwise, subtle areas of ductal wall enhancement may be overlooked and a potential underlying carcinoma can be missed.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Ferris-James D, Iuanow E, Mehta T, Shaheen R, et al. Imaging Approaches to Diagnosis and Management of Common Ductal Abnormalities. RadioGraphics 2012; 32:1009–1030</li>
+<li>Raza S, Birdwell R. Specialty Imaging. Breast MRI: a comprehensive imaging guide/ first edition. ISBN 978-1-931884-17-4</li>
+</ol>
+</div>
+<div id="b9-lipoma" class="section level1">
+<h1>b9 lipoma</h1>
+<p>History: 46-year-old woman with a palpable right breast lump and a negative mammographic and sonographic workup. MRI was performed for further evaluation.</p>
+<p>(a)<img src="images/LF3/b9_lipoma/a1a.tif" style="width:28%"> (b)<img src="images/LF3/b9_lipoma/a1b.tif" style="width:28%"> (c)<img src="images/LF3/b9_lipoma/a1c.tif" style="width:28%"> (d)<img src="images/LF3/b9_lipoma/a1d.tif" style="width:28%"></p>
+<p>Figure</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weighted image of the right breast shows an oval circumscribed mass (arrow) that is isointense to fat. The fat suppressed images</li>
+<li>sagittal T2-weighted fat-suppressed</li>
+<li>sagittal T1-weighted fat-suppressed post-contrast, and</li>
+<li>axial T1-weighted fat-suppressed post-contrast] all show the mass to be hypointense to the breast fat.</li>
+</ol>
+<ul>
+<li>Post-contrast images (c,d) show it to non-enhancing. Post lumptectomy changes are incidentally noted in the left breast.</li>
+</ul>
+<p><strong>Teaching points</strong>:</p>
+<p>Lipomas are one of the most common mesenchymal tumors that closely resemble fat and can occur in almost any part of the body. In addition to fat, lipomas may contain internal fibrous connective tissue. Lipomas are benign encapsulated masses occurring in 2.1 per 100 people. Clinically, lipomas are usually small and asymptomatic, but may be large enough to present as a clinical mass or cause breast asymmetry and enlargement. Diagnostic dilemmas can arise as lipomas may be difficult to appreciate in fatty breast tissue. Lipomas will typically be radiolucent on radiography/mammography, hyperechoic on ultrasound and fat attenuation on CT. On MRI, lipomas will mirror signal intensity of fat on all pulse sequences and will not contrast enhance, with exception of the surrounding fibrous capsule as illustrated on this case.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Ramirez-Montano L, Vargas-Tellez E, Dajer-Fadel WL, Maceda SE. Giant lipoma of the breast. Arch Plast Surg. 2013; 40: 244-246. Murphey MD, Carroll JF, Flemming DJ, Pope TL, Gannon FH, Kransdorf MJ. From the archives of AFIP: benign musculoskeletal lipomatous lesions. Radiographics. 2004; 24:1433-1466.</li>
+</ol>
+<div id="b9-intra-ln" class="section level2">
+<h2>b9 intra LN</h2>
+<p>(a)<img src="images/LF3/b9_lymph_node/a1a.tif" style="width:28%"> (b)<img src="images/LF3/b9_lymph_node/a1b.tif" style="width:28%"></p>
+<p>(c)<img src="images/LF3/b9_lymph_node/a1c.tif" style="width:21%"> (d)<img src="images/LF3/b9_lymph_node/a1d.tif" style="width:21%"> (e)<img src="images/LF3/b9_lymph_node/a1e.tif" style="width:21%"> (f)<img src="images/LF3/b9_lymph_node/a1f.tif" style="width:21%"></p>
+<p>Figure: 39-year-old woman undergoing high risk screening breast MRI.</p>
+<p>a, b) Sequential axial T1-weighted fat-suppressed post-contrast images demonstrate a homogeneously enhancing mass (arrows) in the outer right breast, which appears oval on one slice and reniform on the next . The reniform appearance is characteristic of a lymph node c) A sagittal T1-weighted fat-suppressed post-contrast image through the mass highlights its homogeneous enhancment and reniform shape (arrow). The lymph node (arrows) has low signal on the d) T1-weighted image and high signal on the e) T2-weighted fat-suppressed image. Its central notch (arrow heads) is isointense to fat on both sequences f) CAD enhancement kinetics analysis demonstrates a mixed progressive and washout enhancement pattern color coded as yellow and red, respectively.</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Intramammary lymph nodes are separate from the axillary lymph nodes and are completely surrounded by breast tissue, typically in the upper outer quadrant. Approximately 5% of patients undergoing mammography and up to 28% of breast specimens will exhibit these lymph nodes. Characteristic features of a normal intramammary node include a fatty hilum, diameter less than 1 cm, and well circumscribed margins. An intramammary lymph node may become abnormal and lose its hilum or enlarge secondary to hyperplasia, metastatic disease or inflammation. The MRI appearance of a benign intramammary lymph node is a reniform morphology with fatty hilum. The cortex will be T1 hypointense and T2 hyperintense with rapid, homogeneous enhancement; a type III washout kinetic pattern can be seen as demonstrated in this case.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Meyer JE, Ferraro FA, Frenna TH et-al. Mammographic appearance of normal intramammary lymph nodes in an atypical location. AJR Am J Roentgenol. 1993;161 (4): 779-80.</li>
+<li>Ecanow JS, Abe H, Newstead GM, Ecanow DB, Jeske JM. Axillary staging of breast cancer: what the radiologist should know. Radiographics. 2013; 33: 1589-1612.</li>
+</ol>
+</div>
+<div id="b9-round-atelectasis" class="section level2">
+<h2>b9 round atelectasis</h2>
+<p>History: 46-year-old patient undergoing high risk screening breast MRI.</p>
+<p>Round atelectasis.</p>
+<p>(a)<img src="images/LF3/b9_round_at/a1a.tif" style="width:40%"> (b)<img src="images/LF3/b9_round_at/a1b.tif" style="width:40%"></p>
+<p>Figure 1</p>
+<p>a, b) Sequential axial T1-weighted fat-suppressed post-contrast images obtained with the patient prone demonstrate an enhancing oval mass (arrow) in the right middle lobe. The mass demonstrates a swirling or comet tail appearance characteristic of round atelectasis.</p>
+<p>(a)<img src="images/LF3/b9_round_at/a2a.tif" style="width:40%"> (b)<img src="images/LF3/b9_round_at/a2b.tif" style="width:40%"></p>
+<p>Figure 2</p>
+<p>a,b) Corresponding supine CT images obtained the next day show resolution of the round atelectasiswith some residual scarring (arrows).</p>
+<p><strong>Teaching points</strong>:</p>
+<p>Rounded atelectasis is an uncommon form of peripheral lung collapse that can be associated with asbestos exposure, exudative pleural effusions, post cardiac surgery, pneumothorax or be idiopathic. Rounded atelectasis is usually asymptomatic with minimal to no clinical findings. The two main conditions that rounded atelectasis is encountered is usually incidentally on a healthy patient or on long-term follow up of an asbestos-exposed patient. The typical imaging appearance is a peripheral round, spindle or wedge-shaped opacity with indistinct, irregular borders on radiography. On CT, it will appear as a peripheral round mass adjacent to thickened pleura. Variable contrast enhancement is noted and a classic “comet-tail” sign may be appreciated, composed of swirling confluence of pulmonary vessels. On MRI, rounded atelectasis will be T1 hyperintense to muscle and T1 hypointense to fat and T2 iso to hypotintense to fat with contrast enhancement and “comet-tail” sign, similar to CT. This case illustrates rounded atelectasis with “comet-tail” sign on MRI, likely secondary to a combination of prior scarring in the right middle lobe and prone position. The finding resolved on CT performed the next day with the patient positioned supine; only mild scarring was noted.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Stathopoulos GT, Karamessini MT, Sotiriadi AE, Pastromas VG. Rounded atelectasis of the lung. Respir Med. 2005; 99(5):615-23.</li>
+<li>Yamaguchi T, Hayashi K, Ashizawa K, et al. Magnetic resonance imaging of rounded atelectasis. J Thorac Imaging. 1997; 12(3): 188-94.</li>
+</ol>
+</div>
+<div id="b9-sf-and-sa" class="section level2">
+<h2>b9 SF and SA</h2>
+<p>History: 36-year-old patient undergoing high risk screening breast MRI.</p>
+<p>(a)<img src="images/LF3/b9_SFSA/a1a.tif" style="width:40%"> (b)<img src="images/LF3/b9_SFSA/a1b.tif" style="width:40%"></p>
+<p>Figure</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal post-contrast subtraction images without and</li>
+<li>with CAD color overlay demonstrate two irregular masses (arrows) in the central right breast with mixed enhancement kinetics. No sonographic correlate was identified.</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Sclerosing adenosis (SA) and stromal fibrosis (SF) are benign entities that are known to mimic malignancy on clinical examination and radiological imaging. Sclerosing adenosis is present in 12% of benign surgical biopsies. It demonstrates increased numbers of distorted lobules usually accompanied by stromal fibrosis. Mammographically, sclerosing adenosis typically presents as amorphous and pleomorphic calcifications, however it does not seem to present distinctive features on contrast enhanced MRI. Lesions may be depicted as ductal enhancement or as a homogeneously-enhancing oval or round mass with lobulated or angular margins showing rapid early enhancement and delayed persistent or washout kinetics. Stromal Fibrosis, on the other hand is defined as proliferation of fibrous tissue replacing normal connective tissue and causing obliteration and atrophy of mammary ducts and lobules. SF has a more variable mammographic and sonographic appearance. Most prevalent MRI features are described in the literature to be round or oval shape, irregular or spiculated margins, rapid or medium rate of initial contrast uptake, and plateau or washout curves. No further treatment required for either diagnosis if the pathology is concordant with the imaging findings.</p>
+<p><em>Reference</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Cucci E, Santoro A, Di Gesù C, et al. Sclerosing adenosis of the breast: report of two cases and review of the literature. Pol J Radiol, 2015; 80: 122-127</li>
+<li>Taşkın F, Köseoğlu K, Ünsal A, et al. Sclerosing adenosis of the breast: radiologic appearance and efficiency of core needle biopsy. Diagn Interv Radiol 2011; 17:311–316</li>
+<li>Lee SJ, Mahoney MC, Khan S. MRI Features of Stromal Fibrosis of the Breast With Histopathologic Correlation. Am J Roentgenol. 2011 Sep;197 (3):755-62.</li>
+</ol>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
