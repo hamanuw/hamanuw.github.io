@@ -1,0 +1,31 @@
+---
+title: "Topic IV - LF 3"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+## implant rupture
+
+46-year-old female undergoing breast MRI for evaluation of possible implant rupture.
+
+Intracapsular rupture of left retroglandular silicone implant.
+
+(a)<img src="images/LF3/implant_rupture/a1a.tif" style="width:28%">
+(b)<img src="images/LF3/implant_rupture/a1b.tif" style="width:28%">
+(c)<img src="images/LF3/implant_rupture/a1c.tif" style="width:28%">
+
+(d)<img src="images/LF3/implant_rupture/a1d.tif" style="width:28%">
+(e)<img src="images/LF3/implant_rupture/a1e.tif" style="width:28%">
+
+Figure
+
+a) Axial T2-weighted image of both breasts
+b) axial T2-weighted fat-suppressed image of both breasts
+c) and sagittal T2-weighted images of the right and 
+d) left breasts demonstrate an intact right retroglandular silicone implant with radial fold (black arrowhead). The left breast implant has a collapsed implant capsule with fluid and silicone external to the collapsed implant capsule, but contained within the fibrous capsule (black arrows). The multiple low signal lines (white arrows) are from the collapsed implant capsule, creating the “linguine sign”
+e) Sagittal water-suppressed STIR image of the left breast (in which only silicone is bright) demonstrates no extracapsular silicone.
+
+Teaching point: Companion case.
+

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Topic III - LF 3</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Topics
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="LF1.html">LF1</a>
+    </li>
+    <li>
+      <a href="LF2.html">LF2</a>
+    </li>
+    <li>
+      <a href="LF3.html">LF3</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="mailto:&lt;rh2616@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Topic III - LF 3</h1>
+
+</div>
+
+
+<div id="high-risk-adh-ph" class="section level2">
+<h2>high risk ADH PH</h2>
+<p>History:48-year-old patient undergoing high risk screening MRI due to a personal history of breast cancer.</p>
+<p>Atypical ductal hyperplasia (ADH).</p>
+<p>(a)<img src="images/LF3/high_risk_ADH/a1a.tif" style="width:21%"> (b)<img src="images/LF3/high_risk_ADH/a1b.tif" style="width:21%"> (c)<img src="images/LF3/high_risk_ADH/a1c.tif" style="width:21%"> (d)<img src="images/LF3/high_risk_ADH/a1d.tif" style="width:21%"></p>
+<p>Figure</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal T1-weighted image of the left breast demonstrates surgical alteration (arrows) in the central left breast from prior lumpectomy</li>
+<li>Sagittal post-contrast subtraction image demonstrate no suspicious enhancement within the lumpectomy bed</li>
+<li>Sagittal post-contrast subtraction image without and</li>
+<li>with CAD color overlay demonstrates a 1.2 cm area of suspicious linear nonmass enhancement (arrow) with mixed enhancement kinetics lateral to the lumpectomy site. No sonographic or mammographic correlate was identified. The area underwent MRI-guided biopsy which yielded ADH.</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Atypical Ductal Hyperplasia (ADH) is the most common high-risk lesion and is defined as ductal proliferation that is considered to increase a women’s life time risk of developing ductal carcinoma. In 20-50% of the time, depending on the needle gauge, ADH is upgraded histologically to ductal carcinoma in situ (DCIS) or invasive cancer at the time of surgical excision. According to a recent review in 2012, no studies showed specific predictive morphologic or kinetic MRI characteristics for high-risk lesions. Moreover, there were no imaging features that could reliably predict subsequent upgrade to malignancy. The MRI appearance of ADH is variable, ranging from a mass to linear non-mass enhancement mimicking DCIS.<br />
+In our case example, atypical ductal hyperplasia was diagnosed on breast MRI in a patient with personal history of cancer. The American cancer society recommendations, however, remain controversial regarding performing yearly MRI screening for patients with personal history of breast cancer, DCIS or high risk lesions such as ADH, atypical lobular hyperplasia (ALH) and lobular carcinoma in situ(LCIS).</p>
+<p><em>References</em>: 1) Kohr JR, Eby PR, Allison KH, et al. Risk of Upgrade of Atypical Ductal Hyperplasia after Stereotactic Breast Biopsy: Effects of Number of Foci and Complete Removal of Calcifications. Radiology 2010; 255:723–730 2) High-Risk Lesions at MRI-Guided Breast Biopsy: Frequency and Rate of Underestimation AJR 2014; 203:682–686 3) Samantha L. Heller1 Linda Moy. Imaging Features and Management of High-Risk Lesions on Contrast Enhanced Dynamic Breast MRI. AJR 2012; 198:249–255</p>
+</div>
+<div id="high-risk-lcis" class="section level1">
+<h1>high risk LCIS</h1>
+<p>History: 33-year-old patient undergoing high risk screening breast MRI.</p>
+<p>Lobular carcinoma in situ (LCIS)</p>
+<p>(a)<img src="images/LF3/high_risk_LCIS/a1a.tif" style="width:21%"> (b)<img src="images/LF3/high_risk_LCIS/a1b.tif" style="width:21%"> (c)<img src="images/LF3/high_risk_LCIS/a1c.tif" style="width:21%"> (d)<img src="images/LF3/high_risk_LCIS/a1d.tif" style="width:21%"></p>
+<p>Figure.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Axial T1-weighted fat-suppressed post-contrast image demonstrates a 4 mm focus of enhancement in the posterior upper outer left breast, which does not have a correlate on</li>
+<li>T2-weighted fat-suppressed images</li>
+<li>Sagittal post-contrast subtraction image of the left breast redemonstrates the 4 mm focus of enhancement, which shows a persistent delayed enhancement pattern on</li>
+<li>CAD analysis (blue color).</li>
+</ol>
+<p><strong>Teaching Points</strong>:</p>
+<p>Lobular carcinoma in situ (LCIS) is noninvasive proliferations of lobular cells known to be an indicator of future increased risk for breast cancer development. Existing data suggest that pleomorphic histology or large volumes of LCIS may be predictive of a more focally aggressive carcinoma. LCIS is usually an incidental finding at core biopsy as it has no reliable imaging features. The most common imaging features that have been associated with LCIS are grouped amorphous calcifications on mammography and focus or non–mass-like enhancement with persistent enhancement kinetics on MRI. No Specific features have been identified sonographically. The currently available management recommendations of LCIS diagnosed at core biopsy is surgical excision of the biopsy site, particularly those of pleomorphic type.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Marion Scoggins, MD, Savitri Krishnamurthy, MD, Lumarie Santiago, et al. Lobular Carcinoma In Situ of the Breast: Clinical, Radiological, and Pathological Correlation. Acad Radiol 2013; 20:463–470</li>
+<li>Kristen A. Atkins, MD, Michael A. Cohen, MD, Brandi Nicholson, MD. Atypical Lobular Hyperplasia and Lobular Carcinoma in Situ at Core Breast Biopsy: Use of Careful Radiologic-Pathologic Correlation to Recommend Excision or Observation. Radiology: Volume 269: Number 2—November 2013</li>
+</ol>
+<div id="high-risk-radial-scar" class="section level2">
+<h2>high risk radial scar</h2>
+<p>History: 41-year-old woman undergoing high risk screening breast MRI.</p>
+<p>Radial scar.</p>
+<p>(a)<img src="images/LF3/high_risk_radialscar/a1a.tif" style="width:21%"> (b)<img src="images/LF3/high_risk_radialscar/a1b.tif" style="width:21%"> (c)<img src="images/LF3/high_risk_radialscar/a1c.tif" style="width:21%"> (d)<img src="images/LF3/high_risk_radialscar/a1d.tif" style="width:21%"></p>
+<p>Figure 1</p>
+<ol style="list-style-type: lower-alpha">
+<li>Sagittal post-contrast subtraction and</li>
+<li>sagittal post-contrast 3D MIP images of the left breast demonstrate an irregular enhancing mass in the central breast with mixed enhancement kinetics on</li>
+<li>CAD anaylsis</li>
+<li>Axial T1-weighted fat-suppressedpost-contrast image redemonstrates the irregular enhancing mass (arrows) along the lateral aspect of the left breast with associated architectural distortion.</li>
+</ol>
+<p><img src="images/LF3/high_risk_radialscar/a2.tif" style="width:40%"></p>
+<p>Figure 2 - Targeted ultrasound image of the left breast demonstrates a corresponding ill-defined hypoechoic mass with posterior acoustic shadowing (arrowheads). Biopsy yielded a radial scar.</p>
+<p><em>Teaching Points</em>:</p>
+<p>Radial scar is a benign breast lesion characterized by a central fibro-elastotic core with entrapped ducts surrounded by cystic ducts and lobules showing a spectrum of proliferative changes. They typically measure less than 1 cm and usually called complex sclerosing lesions if they are 1 cm or greater. Radial scars are typically seen in women younger than 50 years of age. The most common MR imaging feature is non-mass enhancement, including in linear or clumped distribution, with associated distortion and type 2 or 3 enhancement kinetics. Radial sclerosing lesions are associated with an elevated risk for subsequent development of breast cancer and many studies have reported association with malignancy in up to 40% of cases. The current management recommendations are surgical excision. However, some published reviews suggest that excision of radial scars should only be performed if associated with atypia.</p>
+<p><em>References</em>:</p>
+<ol style="list-style-type: decimal">
+<li>Becker L, Trop I, David J, et al. Management of radial scars found at percutaneous breast biopsy. Can Assoc Radiol J 2006; 57:72–78.</li>
+<li>Chadashvili T, Ghosh E, Fein-Zachary V, et al. Nonmass Enhancement on Breast MRI: Review of Patterns With Radiologic-Pathologic Correlation and Discussion of Management. AJR 2015; 204:219–227.</li>
+<li>Sohn VY, Causey MW, Steele SR, The treatment of radial scars in the modern era-surgical excision is not required. Am Surg. 2010 May; 76(5):522-5.</li>
+</ol>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

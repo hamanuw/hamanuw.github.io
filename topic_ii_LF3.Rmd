@@ -1,0 +1,309 @@
+---
+title: "Topic II - LF 3"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+##ca dcis high grade failed treatment
+
+History: 32-year-old woman with high grade DCIS for extent of disease evaluation.
+Progression of high grade DCIS while on non-conventional treatment.
+
+(a)<img src="images/LF3/ca_high_DCIS/a1a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_high_DCIS/a1b.tif" style="width:40%">
+
+Figure 1 - Mammogram
+
+a) CC and 
+b) ML magnification views of the right breast demonstrate extensive suspicious pleomorphic calcifications (arrows) involving the upper outer breast.  Stereotactic biopsy yielded high grade DCIS. 
+
+(a)<img src="images/LF3/ca_high_DCIS/a2a.tif" style="width:28%">
+(b)<img src="images/LF3/ca_high_DCIS/a2b.tif" style="width:28%">
+(c)<img src="images/LF3/ca_high_DCIS/a2c.tif" style="width:28%">
+
+Figure 2 - Baseline breast MRI
+
+a) Axial T1-weighted fat-suppressed post-contrast  image of both breasts reveals extensive non-mass enhancement (arrowheads) involving most of the right breast
+b,c) Sagittal T1-weighted fat-suppressed post-contrast  images of the right breast showextensive segmental nonmass enhancement (arrowheads) in the upper right breast, as well as two enlarged axillary lymph nodes (arrows) suspicious for metastasis. A breast biopsy clip artifact is seen (arrow).
+
+(a)<img src="images/LF3/ca_high_DCIS/a2a.tif" style="width:28%">
+(b)<img src="images/LF3/ca_high_DCIS/a2b.tif" style="width:28%">
+(c)<img src="images/LF3/ca_high_DCIS/a2c.tif" style="width:28%">
+
+Figure 3 - Follow-up breast MRI performed after 11 months of non-conventional treatment
+
+a) Axial and 
+b) sagittal T1-weighted fat-suppressed post-contrast images at the level of the biopsy clip (white arrow) show increased extensive non-mass enhancement, now involving the entire right breast with associated diffuse and nodular skin thickening (arrowheads)
+c) Sagittal T1-weighted fat-suppressed post-contrast image of the right breast demonstrates interval increase in enlarged axillary lymph nodes (arrows) that have a matted appearance adjacent to the axillary vasculature (arrowheads).
+
+<img src="images/LF3/ca_high_DCIS/a4.tif" style="width:40%">
+
+Figure 4. PET/CT evaluation shows several FDG avid irregular masses (teal circle) in the liver, suspicious for hepatic metastases.
+
+**Teaching points**: 
+
+Ductal Carcinoma in Situ (DCIS) is a heterogeneous disease varying in clinical presentation, morphology and behavior. The published studies indicate that DCIS of all grades has the potential to progress to invasive ductal carcinoma.  However high-grade DCIS has been shown to progress more rapidly than lower grade lesions and are more likely to lead to metastatic disease with poor survival outcome.  The MRI appearance of natural progression of high grade DCIS is illustrated in this case demonstrating dramatic increase in loco-regional disease with parenchymal spread of tumor, skin involvement and axillary metastasis.  Breast MRI is a sensitive modality for evaluating interval change of malignancy not only in successful neo-adjuvant therapy cases but also in cases of failed treatment. 
+
+
+*References*: 
+
+1)	Gregory D. Leonard, Sandra M. Swain. Ductal Carcinoma In Situ, Complexities and Challenges. Journal of the National Cancer Institute, Vol. 96, No. 12
+2)	Chan S, Chen JH, Agrawal G, Characterization of Pure Ductal Carcinoma In Situ on Dynamic Contrast-Enhanced MR Imaging: Do Nonhigh Grade and High Grade Show Different Imaging Features? Journal of Oncology. 2010; 2010: 431341.
+
+##ca high grade dcis underest on MG
+History: 55-year-old woman with high grade DCIS.  Extent of disease evaluation. 
+
+(a)<img src="images/LF3/ca_high_DCIS2/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/ca_high_DCIS2/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/ca_high_DCIS2/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/ca_high_DCIS2/a1d.tif" style="width:21%">
+
+Figure 1 - Mammogram
+
+a) ML and spot magnification 
+b) CC and 
+c,d) ML views show pleomorphic calcifications in a linear distribution in the lower outer quadrant (arrows)
+
+(a)<img src="images/LF3/ca_high_DCIS2/a2a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_high_DCIS2/a2b.tif" style="width:40%">
+
+Figure 2 
+
+a) Sagittal post-contrast subtraction image shows linear non-mass enhancement (black arrows) corresponding to the pleomorphic calcifications on mammography
+b) An additional  sagittal post-contrast subtraction image  reveals additional enhancement extending towards the nipple (arrowheads) for which there is no mammographic correlate. Biopsy clip artifact is seen (white arrow).
+
+**Teaching points**:
+
+Although mammography has been the mainstay for diagnosis of DCIS, there has been a tendency in underestimating the extension of disease, especially in patients without microcalcifications or in those with dense breasts or breast implants.  MRI has been more sensitive in detecting pure DCIS compared to mammography.  In many instances, MRI can reveal early stage breast cancer, including DCIS and DCIS with small invasive carcinomas, which are mammographically, sonographically, and clinically occult.  However, no differences in MR morphologic or kinetic features have been reported between low grade and high grade DCIS.  
+
+In our example,  linear distribution of calcifications were identified on mammography which correspond to linear nonmass enhancement on the T1W post contrast imagines, a finding that has been shown to be more likely associated with high-grade DCIS. 
+
+*References*: 
+1)	Gregory D. Leonard, Sandra M. Swain. Ductal Carcinoma In Situ, Complexities and Challenges. Journal of the National Cancer Institute, Vol. 96, No. 12
+2)	Chan S, Chen JH, Agrawal G, Characterization of Pure Ductal Carcinoma In Situ on Dynamic Contrast-Enhanced MR Imaging: Do Non-high Grade and High Grade Show Different Imaging Features? Journal of Oncology. 2010; 2010: 431341. 
+3)	Ballard LJ, Ballard JR. High‐Grade Ductal Carcinoma In Situ: An Overview for the Radiologist. J Am Osteopath College of Radiology 2013; Vol. 2, Issue 1
+
+##ca low grade DCIS
+
+History: 51-year-old woman undergoing high risk screening breast MRI. 
+
+(a)<img src="images/LF3/ca_low_DCIS/a1a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_low_DCIS/a1b.tif" style="width:40%">
+
+Figure
+
+a) Sagittal T1-weighted fat-suppressed post-contrast image of the right breast demonstrates a 1.2 cm area of linear nonmass enhancement (arrows) along the right 10:00 axis
+b) Sagittal T1-weighted fat-suppressed post-contrast image of the right axilla shows no lymphadenopathy. The findings were mammographically and sonographically occult. MRI guided biopsy of the nonmass enhancement yielded low grade DCIS.
+
+**Teaching Points**:
+
+MRI has been shown to be more sensitive than mammography in detection of all grades of DCIS, with the highest sensitivity for detection of high-grade and intermediate-grade DCIS as compared with low-grade DCIS.  Mammographically, low-grade DCIS present as amorphous calcifications on mammography and are more likely to present as a mass or asymmetry than high-grade DCIS. On MR imaging, non-mass enhancement is usually associated with all grades of DCIS (60%–81% of cases). Low-grade DCIS typically has benign blood flow enhancement kinetics, however, no individual kinetic pattern has been demonstrated to predict DCIS grade. 
+
+*References*: 
+1)	Greenwood HI, Heller SL, Kim S, et al. Ductal Carcinoma in Situ of the Breasts: Review of MR Imaging Features. RadioGraphics 2013; 33:1569–1588. 
+2)	Gregory D. Leonard, Sandra M. Swain. Ductal Carcinoma In Situ, Complexities and Challenges. Journal of the National Cancer Institute, Vol. 96, No. 12
+
+
+##ca idc nipple involvement
+
+History: 56-year-old woman undergoing breast MRI for extent of disease evaluation. 
+
+(a)<img src="images/LF3/ca_IDC_nipple/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/ca_IDC_nipple/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/ca_IDC_nipple/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/ca_IDC_nipple/a1d.tif" style="width:21%">
+
+Figure
+
+a) Sagittal T1-weighed fat-suppressed pre-  and 
+b) post-contrast  images of the right breast demonstrate a heterogeneously enhancing irregular T1 isointense retroareolar mass (arrows) involving the nipple
+c) CAD enhancement kinetics analysis demonstrates a mixed enhancement pattern
+d) Post-contrast 3D MIP image shows the enhancing retroareolar mass (arrows) involving the nipple.
+
+**Teaching Points**: 
+
+The nipple may be involved by extension of underlying invasive ductal carcinoma, by ductal carcinoma in situ (DCIS), or by Paget cells within the epidermis.  The incidence of clinically silent nipple involvement by cancer has been shown to be higher than that previously known, according to histopathologic examination of the nipple in mastectomy specimens.  Therefore, it is important to rule out occult carcinoma within the nipple-areolar complex (NAC) site in patients undergoing nipple-sparing mastectomy.  
+MRI-measured tumor size and distance from the NAC are correlated with increased risk of NAC involvement. With the advantages of preoperative MRI, it is possible to make a valid prediction of the extent of disease, and in particular, occult nipple invasion. 
+
+*References*: 
+
+1)	Steen S, Chung A, Han S, et al.  Predicting Nipple–Areolar Involvement Using Preoperative. Breast MRI and Primary Tumor Characteristics.  Ann Surg Oncol (2013) 20:633–639
+2)	Sakamoto S, Tozaki M, Hoshi K, et al.  Is MRI useful for the prediction of nipple involvement? Breast Cancer (2013) 20:316–322.
+3)	D’Alonzo M, Martincich L, Biglia N, et al. Clinical and radiological predictors of nipple-areolacomplex involvement in breast cancer patients.  European Journal of Cancer (2012) 48, 2311– 2318
+4)	Moon J, Chang Y, Lee E, et al. Malignant Invasion of the Nipple-Areolar Complex of the Breast: Usefulness of Breast MRI. AJR 2013; 201:448–455
+
+##ca ilc nipple involvement
+
+History: 44-year-old woman undergoing breast MRI for extent of disease evaluation. 
+
+Invasive lobular carcinoma involving the nipple.
+
+(a)<img src="images/LF3/ca_ILC_nipple/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/ca_ILC_nipple/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/ca_ILC_nipple/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/ca_ILC_nipple/a1d.tif" style="width:21%">
+
+Figure 1
+
+a) Axial post-contrast subtraction and 
+b) sagittal T1-weighted fat-suppressed post-contrast images demonstrate a heterogeneously enhancing irregular mass (arrows) in the central left breast extending to and involving the thickened, enhancing nipple-areolar complex (arrrows)
+c) Axial post-contrast subtraction and 
+d) sagittal T1-weighted fat-suppressed post-contrast images at a different level show to greater effect the heterogeneously enhancing spiculated mass (arrows) with additional satellite lesions (arrowheads) superior and inferior to it.  Note the suboptimal positioning of the patient on the sagittal images, with infolding of the inframammary fold and incomplete fat suppression.
+
+(a)<img src="images/LF3/ca_ILC_nipple/a2a.tif" style="width:21%">
+(b)<img src="images/LF3/ca_ILC_nipple/a2b.tif" style="width:21%">
+(c)<img src="images/LF3/ca_ILC_nipple/a2c.tif" style="width:21%">
+(d)<img src="images/LF3/ca_ILC_nipple/a2d.tif" style="width:21%">
+
+Figure 2
+
+a) CC
+b) MLO
+c) CC spot magnification, and
+d) ML magnification mammographic views of the left breast demonstrate an irregular, spiculated mass (arrows) in the slightly lateral left breast with associated architectural distortion and pleomorphic calcifications.  Biopsy yielded invasive lobular carcinoma.
+
+**Teaching Points**:
+
+MR imaging has been shown to affect clinical management in 50% of patients with ILC, leading to changes in surgical management in 28% of cases.  Tumors less than 2 cm from the nipple or larger than 2 cm are the only factors that have been significantly associ¬ated with NAC involvement.  Preoperative MR imaging can be performed to evaluate disease near the NAC (nipple-areolar complex) and determine the patient’s eligibility for nipple-sparing mastectomy. 
+
+*References*: 
+
+1)	Steen ST, Chung AP, Han SH, et al. Predicting nipple-areolar involvement using preoperative breast MRI and primary tumor characteristics. Ann Surg Oncol. 2013 Feb;20 (2):633-9.
+2)	Lopez JK, Bassett LW. Invasive Lobular Carcinoma of the Breast: Spectrum of Mammographic, US, and MR Imaging Findings. RadioGraphics 2009; 29:165–176.
+3)	Mann RM, Hoogeveen YL, Blickman JG, et al. MRI compared to conventional diagnostic work-up in the detection and evaluation of invasive lobular carcinoma of the breast: a review of existing literature. Breast Cancer Res Treat 2008;107(1):1– 14.
+
+## ca LAD unknown primary 2
+
+History: 55-year-old patient with axillary lymph node metastasis of unknown primary malignancy. 
+
+Mammographically and sonographically occult breast cancer detected on MRI peformed for axillary lymph node metastasis of unknown primary malignancy.
+
+(a)<img src="images/LF3/ca_LAD_unknown2/a1a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_LAD_unknown2/a1b.tif" style="width:40%">
+
+Figure 1 - Baseline screening mammogram
+
+a) CC and 
+b) MLO views of the right breast show no evidence of suspicious mass, architectural distortion or microcalcifications.  Normal axillary lymph nodes are present. Targeted ultrasound was normal
+
+(a)<img src="images/LF3/ca_LAD_unknown2/a2a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_LAD_unknown2/a2b.tif" style="width:40%">
+
+Figure 2 - Screening mammogram one year later
+
+a) CC and 
+b) MLO views of the right breast show no change in the breast itself, although there is new axillary lymphadenopathy (arrows). Sonography of the right breast was negative
+
+(a)<img src="images/LF3/ca_LAD_unknown2/a3a.tif" style="width:28%">
+(b)<img src="images/LF3/ca_LAD_unknown2/a3b.tif" style="width:28%">
+(c)<img src="images/LF3/ca_LAD_unknown2/a3c.tif" style="width:28%">
+
+Figure 3 -
+
+a,b) Axial post-contrast subtraction images and 
+c) an axial post-contrast 3D MIP image show a heterogeneously enhancing irregular mass (arrowheads) in the central right breast with axillary lymphadenopathy (arrows). This underwent biopsy and was an invasive ductal carcinoma. A subtle area of mammographic asymmetry can be seen in retrospect.
+
+**Teaching Points**:
+
+Breast MRI is the most sensitive imaging modality for the detection of clinically occult breast cancer in patients with malignant axillary adenopathy. Breast MRI can detect an otherwise mammographically and sonographically occult breast cancer in over 60% of patients.  Routine application of breast MRI in occult breast cancer can impact clinical management including the possibility of breast conserving surgery. This is one of the generally accepted clinical indications for breast MRI. 
+
+*References*:
+
+1) Olson Jr JA, Morris EA, Van Zee KJ, et al. Magnetic resonance imaging facilitates breast conservation for occult breast cancer.Ann Surg Oncol 2000;7 (6):411–5.
+2) Orel SG, Weinstein SP, Schnall MD, et al. Breast MR imaging in patients with axillary node metastases and unknown primary malignancy. Radiology 1999; 212 (2):543–9
+3) Bresser J, Vos B, Van Der Ent F, et al. Breast MRI in clinically and mammographically occult breast cancer presenting with an axillary metastasis: A systematic review.  EJSO 36 (2010) 114-119
+
+## ca MCD HER2
+
+History:  32-year-old woman with biopsy-proven malignancy undergoing breast MRI for evaluation of disease extent. 
+
+Multicentric invasive ductal carcinoma identified on MRI performed to assess disease extent.
+
+(a)<img src="images/LF3/ca_mcd_her2/a1a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_mcd_her2/a1b.tif" style="width:40%">
+
+Figure 1
+
+a) Axial T1-weighted fat-suppressedpost-contrast image of both breasts demonstrates a 2.3 cm heterogeneously enhancing irregular mass (arrows) along the 5:00 axis of the right breast representing known invasive ductal carcinoma
+b) Axial T2-weighted fat-suppressed image shows areas of T2 hyperintensity (arrows) within the mass, representing necrosis.
+
+(a)<img src="images/LF3/ca_mcd_her2/a2a.tif" style="width:21%">
+(b)<img src="images/LF3/ca_mcd_her2/a2b.tif" style="width:21%">
+(c)<img src="images/LF3/ca_mcd_her2/a2c.tif" style="width:21%">
+(d)<img src="images/LF3/ca_mcd_her2/a2d.tif" style="width:21%">
+
+Figure 2
+
+a) Axial T1-weighted fat-suppressed post-contrast image of the more inferior breasts demonstrates an additional 1 cm rim enhancing round mass (arrows) along the 8:00 axis of the right breast. Coned down magnified 
+b) axial T1-weighted fat-suppressed post-contrast
+c) T1-weighted, and
+d) T2-weighted fat-suppressed images of the mass highlight the rim enhancement, lack of central T1 high signal to indicate fat necrosis, and T2 high signal, respectively.
+
+(a)<img src="images/LF3/ca_mcd_her2/a3a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_mcd_her2/a3b.tif" style="width:40%">
+
+Figure 3 - Second look ultrasound to evaluate for the 5:00 (known malignancy) and  8:00 (newly identified on MRI) masses
+
+a) Grayscale image of the right 8:00 axis demonstrates an irregular hypoechoic mass with angular margins and echogenic halo (arrows) corresponding to the unsuspected MRI mass. Ultrasound guided core biopsy yielded invasive ductal carcinoma
+b) Grayscale image of the right 5:00 axis demonstrates a deceptively circumscribed mass corresponding to known malignancy.
+
+(a)<img src="images/LF3/ca_mcd_her2/a4a.tif" style="width:40%">
+(b)<img src="images/LF3/ca_mcd_her2/a4b.tif" style="width:40%">
+
+Figure 4 - Initial diagnostic right breast mammogram
+
+a) CC and 
+b) MLO  spot compression views performed in an area of palpable abnormality demonstrate vague nodular asymmetries (arrows) that partially efface . Ultrasound and MRI findings are more diagnostic.
+
+**Teaching points**:
+
+Multicentric disease (MCD) is defined as two or more tumor areas in different quadrants of the same breast. A number of studies have reported the capability of MRI to identify additional cancer foci that would have otherwise remained undetected on the basis of clinical assessment and conventional imaging, thereby, changing surgical planning. Data suggest that MCD may be more common in patients with certain molecular subtypes (luminal B and HER2), as illustrated in this case.
+
+In patients with advanced breast cancer, neoadjuvant chemotherapy increases eligibility for breast conservation treatment by 46% in patients. Neoadjuvant chemotherapy is also effective in reducing burden of disease in the axilla and could potentially decrease the extent of axillary surgery. 
+
+It is important for the radiologist to review the pre-contrast nonfat saturated T1-weighted images for presence of fat within the rim enhancing lesions to help differentiate fat necrosis from additional malignant lesions. 
+
+*References*: 
+
+1)	Houssami N, Ciatto S, Macaskill P, et al. Accuracy and Surgical Impact of Magnetic Resonance Imaging in Breast Cancer Staging: Systematic Review and Meta-Analysis in Detection of Multifocal and Multicentric Cancer. J Clin Oncol 26:3248-3258.
+2)	Sardanelli F1, Giuseppetti GM, Panizza P, et al. Sensitivity of MRI versus mammography for detecting foci of multifocal, multicentric breast cancer in Fatty and dense breasts using the whole-breast pathologic examination as a gold standard. AJR Am J Roentgenol. 2004 Oct;183(4):1149-57.
+3)	Wiechmann L, Sampson M, Stempel M, et al. Presenting features of breast cancer differ by molecular subtype.
+
+## ca underestimation
+
+History: 56-year-old patient newly diagnosed with breast cancer undergoing breast MRI extent of disease evaluation.
+
+(a)<img src="images/LF3/ca_underestimation/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/ca_underestimation/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/ca_underestimation/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/ca_underestimation/a1d.tif" style="width:21%">
+
+Figure 1 
+
+a) Sagittal T1 FS pre contrast image of the left breast demonstrates a dominant T1 intermediate region (arrows) with central clip artifact (arrow head) and a more posterior T1 intermediate focus (arrow) with central clip artifact (arrow head) as well
+b) Sagittal and
+c) axial T1 FS post contrast subtraction images demonstrates a large area of non-mass enhancement (arrows) spanning at least 6 cm with central clip artifact (arrow head) in the 3:00 axis of the left breast which was biopsied yielding invasive lobular carcinoma. Seen on the sagittal view, a 2 cm posterior to the index lesion, 0.7 cm irregular enhancing mass (arrow) with central clip artifact (arrow head) is present which also yielded invasive lobular cancer. No suspicious lymph node was present
+d) CAD enhancement kinetics analysis demonstrates a mixed pattern.
+
+(a)<img src="images/LF3/ca_underestimation/a2a.tif" style="width:28%">
+(b)<img src="images/LF3/ca_underestimation/a2b.tif" style="width:28%">
+(c)<img src="images/LF3/ca_underestimation/a2c.tif" style="width:28%">
+
+Figure 2 - Mammogram of same patient
+
+a) Spot compression MLO view of the left breast demonstrates an indistinct mildly hyperdense irregular mass  (arrows) at 2-3:00 mid left breast and 0.7 cm small irregular mass (arrow head) in the far posterior 2-3:00 axis. 
+b) Post biopsy ML and 
+c) XCCL views of both of these areas (arrows) with clip placement (arrow heads) yielded invasive lobular carcinoma. Patient underwent mastectomy which demonstrated the largest contiguous involvement of cancer to be 5.8 cm. 
+
+**Teaching Points**: 
+
+Invasive lobular carcinoma (ILC) is the second most common histologic type of breast carcinoma, accounting for approximately 10%–15% of all invasive breast cancers. Its mammographic manifestation may vary and can be a vague finding such as architectural distortion or asymmetry. Higher false-negative rates (up to 19%) are reported for ILC than for other invasive cancers at mammography because ILC is often difficult to diagnose mammographically and therefore, disease extent may be underestimated.
+
+*References*: 
+
+1)	Lopez JK, Bassett LW. Invasive Lobular Carcinoma of the Breast: Spectrum of Mammographic, US, and MR Imaging Findings. RadioGraphics 2009; 29:165–176.
+2)	Mann RM. The effectiveness of MR imaging in the assessment of invasive lobular carcinoma of the breast. Magn Reson Imaging Clin N Am. 2010 May;18(2):259-76
+
+
