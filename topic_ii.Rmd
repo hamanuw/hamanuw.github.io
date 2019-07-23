@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-## b9 cyst hemo and infla
+## Benign cyst hemo and infla
 (a)<img src="images/LF1/b9_cyst_hemo_infla/a1a.tif" style="width:40%">
 (b)<img src="images/LF1/b9_cyst_hemo_infla/a1b.tif" style="width:40%">
 
@@ -31,7 +31,7 @@ Simple cysts result from dilatation and effacement of the terminal duct lobular 
 
 1) Hines N, Slanetz PJ, Eisenberg RL. Cystic Masses of the Breast. AJR 2010; 194:W122–W133.
 
-## b9 dilated duct
+## Benign dilated duct
 (a)<img src="images/LF1/b9_dilated_duct/a1A.tif" style="width:21%">
 (b)<img src="images/LF1/b9_dilated_duct/a1B.tif" style="width:21%">
 (c)<img src="images/LF1/b9_dilated_duct/a1C.tif" style="width:21%">
@@ -55,7 +55,7 @@ Normal ducts are usually invisible on breast MRI. However, in the setting of a c
 3)	Ojeda-Fournier H, Choe K A, Mahoney M C, et al. Recognizing and Interpreting Artifacts and Pitfalls in MR Imaging of the Breast. RadioGraphics 2007; 27:S147–S164
 
 
-## b9 FA
+## Benign FA
 (a)<img src="images/LF1/b9_FA/a1a.tif" style="width:28%">
 (b)<img src="images/LF1/b9_FA/a1b.tif" style="width:28%">
 (c)<img src="images/LF1/b9_FA/a1c.tif" style="width:28%">
@@ -90,7 +90,7 @@ Fibroadenomas are frequently seen on breast MRI and are best evaluated by their 
 3)	ACR BI-RADS ATLAS/ Breast MRI/ Reporting System/2013 – 5th Edition.
 
 
-## b9 fcc
+## Benign fcc
 (a)<img src="images/LF1/b9_fcc/a1a.tif" style="width:28%">
 (b)<img src="images/LF1/b9_fcc/a1b.tif" style="width:28%">
 (c)<img src="images/LF1/b9_fcc/a1c.tif" style="width:28%">
@@ -114,7 +114,7 @@ Fibrocystic change (FCC) is a common benign condition, most often bilateral, tha
 4)	Morris EA, Liberman L. Breast MRI, Diagnosis and Intervention. 2005.  ISBN 0-387-21997-8
 
 
-## b9 gallstone
+## Benign gallstone
 (a)<img src="images/LF1/b9_gallstone/a1a.tif" style="width:40%">
 (b)<img src="images/LF1/b9_gallstone/a1b.tif" style="width:40%">
 
@@ -135,7 +135,7 @@ Gallstones are found in about 10% of the general population and twice as common 
 3)	Catalano O, Sahani D, Kalva s et al.MR Imaging of the gallbladder: A Pictorial Essay. Radiographics (2008) 28: 135-155.
 
 
-## b9 intramammary LN
+## Benign intramammary LN
 (a)<img src="images/LF1/b9_intramammary_LN/a1A.tif" style="width:28%">
 (b)<img src="images/LF1/b9_intramammary_LN/a1B.tif" style="width:28%">
 (c)<img src="images/LF1/b9_intramammary_LN/a1C.tif" style="width:28%">
@@ -164,7 +164,7 @@ Biopsy can be avoided if the mass demonstrates classic characteristics of a beni
 4)	Svane G, Franzon S, et al.  Radiologic appearance of nonpalpable intramammary lymph nodes. Acta Radiol (1993) 34: 577-580
 
 
-## b9 Pericardial cyst
+## Benign Pericardial cyst
 (a)<img src="images/LF1/b9_pericardial_cyst/a1a.tif" style="width:40%">
 (b)<img src="images/LF1/b9_pericardial_cyst/a1b.tif" style="width:40%">
 
@@ -189,7 +189,7 @@ References:
 1)	Jarzabkowski DC, Braunstein DB, et al. Pericardial cyst: an incidental finding. J Am Osteopath Asso. 1998 Aug; 98 (8): 445-6. 
 2)	Jeung M, Gasser B, Gangi A, et al. Imaging of Cystic Massess of the Mediastinum. Radiopgraphics 2002; 22:S79-S93.
 
-## b9 Phyllodes
+## Benign Phyllodes
 
 (a)<img src="images/LF1/b9_Phyllodes/a1a.tif" style="width:28%">
 (b)<img src="images/LF1/b9_Phyllodes/a1b.tif" style="width:28%">
@@ -229,7 +229,7 @@ Phyllodes tumors are rare and constitute 0.3-1.0% of all breast tumors. They hav
 2)	Kinoshita T, Fukutomi T, Kubochi K, Magnetic Resonance Imaging of Benign Phyllodes Tumors of the Breast. The Breast Journal, Volume 10, Number 3, 2004 232–236.
 
 
-## b9 saline rupture
+## Benign saline rupture
 (a)<img src="images/LF1/b9_saline_rupture/a1a.tif" style="width:21%">
 (b)<img src="images/LF1/b9_saline_rupture/a1b.tif" style="width:21%">
 (c)<img src="images/LF1/b9_saline_rupture/a1c.tif" style="width:21%">
@@ -254,7 +254,7 @@ DOI 10.1007/s13244-011-0122-3
 3)	Middleton M S. MR Evaluation of Breast Implants. Rdiological Clinics of North America. Volume 52, Issue 3, May 2014, Pages 591-608. 
 4)	Kreymerman P, Partrick R, Rim A et al. Guidelines for Using Breast Magnetic Resonance Imaging to Evaluate Implant Integrity. Ann Plast Surg 2009; 62: 355–357
 
-##b9 Air duct
+## Benign Air duct
 (a)<img src="images/LF2/b9_airduct/1A.tif" style="width:40%">
 (b)<img src="images/LF2/b9_airduct/1B.tif" style="width:40%">
 
@@ -282,7 +282,7 @@ Signal void secondary to air can be seen on MRI images both on T1 and T2 weighte
 1)	Paredes ES. Atlas of mammography. Lippincott Williams & Wilkins. (2007).
 2)	Dinkel HP, Trusen A, Gassel AM et-al. Predictive value of galactographic patterns for benign and malignant neoplasms of the breast in patients with nipple discharge. Br J Radiol. 2000;73 (871): 706-14
 
-##b9 cyst/PE Artifact
+## Benign cyst/PE Artifact
 (a)<img src="images/LF2/b9_cyst_PE/1.tif" style="width:40%">
 
 Figure 1 - Sagittal T2-weighted fat suppressed image of the left breast. Benign cyst and ghosting artifact.
@@ -301,7 +301,10 @@ Phase-encoded motion artifact is commonly seen in breast imaging due to physical
 Zhuo J, Gullapalli RP. Radiographics. 2006 Jan-Feb;26(1):275-97.
 2) Westbrook C, Roth CK, Talbot J. MRI in practice. Wiley-Blackwell. (2005)/ 
 
-##b9 necrosis 1 36-year-old woman with a strong family history of breast cancer undergoing high risk screening breast MRI.  
+## Benign necrosis case 1 
+
+History: 36-year-old woman with a strong family history of breast cancer undergoing high risk screening breast MRI.  
+
 (a)<img src="images/LF2/b9_necrosis1/a1a.tif" style="width:40%">
 (b)<img src="images/LF2/b9_necrosis1/a1b.tif" style="width:40%">
 
@@ -331,7 +334,10 @@ Fat necrosis is a process involving a cascade of cellular events starting with t
 5) Bilgen IG, Ustun EE, Memis A. Fat necrosis of the breast: clinical, mammographic and sonographic features. Eur J Radiol. 2001;39 (2): 92-9. Eur J Radiol - Pubmed citation
 
 
-## b9 necrosis 2 - Palpable right axillary lump in a patient with prior bilateral mastectomies and TRAM flap reconstructions
+## Benign necrosis case 2 
+
+History: Palpable right axillary lump in a patient with prior bilateral mastectomies and TRAM flap reconstructions
+
 (a)<img src="images/LF2/b9_necrosis2/a1a.tif" style="width:40%">
 (b)<img src="images/LF2/b9_necrosis2/a1b.tif" style="width:40%">
 
@@ -346,7 +352,10 @@ Large areas of fat necrosis can present clinically as a palpable concern.  Perip
 
 *References(?)*:
 
-## b9 necrosis 3 - High risk screening breast MRI. No history of trauma or breast procedures. 
+## Benign necrosis case 3 
+
+History: High risk screening breast MRI. No history of trauma or breast procedures. 
+
 (a)<img src="images/LF2/b9_necrosis3/a1a.tif" style="width:40%">
 (b)<img src="images/LF2/b9_necrosis3/a1b.tif" style="width:40%">
 
@@ -365,7 +374,9 @@ Due to the asymmetric enhancement involving only the anterior aspect of the foca
 
 *References(?)*:
 
-## b9 necrosis 4 - High risk screening breast MRI due to family history.  Patient reports motor vehicle accident 6 months prior with significant chest trauma. 
+## Benign necrosis 4
+History: High risk screening breast MRI due to family history.  Patient reports motor vehicle accident 6 months prior with significant chest trauma. 
+
 (a)<img src="images/LF2/b9_necrosis4/a1a.tif" style="width:40%">
 (b)<img src="images/LF2/b9_necrosis4/a1b.tif" style="width:40%">
 
@@ -380,7 +391,9 @@ Fat necrosis has a variable appearance on MRI and clinical history is important.
 
 *References(?)*:
 
-## b9 juvenile FA - 17 yr girl bilateral breast masses
+## Benign juvenile FA 
+History: 17 yr girl bilateral breast masses
+
 (a)<img src="images/LF2/b9_juvenile_fa/a1a.tif" style="width:28%">
 (b)<img src="images/LF2/b9_juvenile_fa/a1b.tif" style="width:28%">
 (c)<img src="images/LF2/b9_juvenile_fa/a1c.tif" style="width:28%">
@@ -406,7 +419,9 @@ The patient underwent surgical excision of these 3 masses yielding juvenile fibr
 3) Ahuja A, Seth A. Juvenile fibroadenoma of breast. Indian Pediatr. 2005;42:72
 
 
-## b9 PASH - 39-year-old woman undergoing high risk screening breast MRI -  Pseudoangiomatous stromal hyperplasia (PASH).
+## Benign PASH 
+History: 39-year-old woman undergoing high risk screening breast MRI -  Pseudoangiomatous stromal hyperplasia (PASH).
+
 (a)<img src="images/LF2/b9_PASH/a1a.tif" style="width:28%">
 (b)<img src="images/LF2/b9_PASH/a1b.tif" style="width:28%">
 (c)<img src="images/LF2/b9_PASH/a1c.tif" style="width:28%">
@@ -437,7 +452,7 @@ Pseudoangiomatous stromal hyperplasia (PASH) is a benign form of stromal (mesenc
 4) Bluemke DA, Gatsonis CA, Chen MH, et al. Magnetic resonance imaging of the breast prior to biopsy. JAMA 2004; 292:2735 –2742 
 5) Piccoli CW, Feig SA, Palazzo JP. Developing asymmetric breast tissue. Radiology 1999
 
-## b9 picture frame enhancement
+## Benign picture frame enhancement
 (a)<img src="images/LF2/b9_picture_frame_enhancement/a1a.tif" style="width:21%">
 (b)<img src="images/LF2/b9_picture_frame_enhancement/a1b.tif" style="width:21%">
 (c)<img src="images/LF2/b9_picture_frame_enhancement/a1c.tif" style="width:21%">
@@ -473,7 +488,7 @@ Enhancement that is clearly ascribable to BPE based on the symmetry of the enhan
 6) Hambly NM, Liberman L, Dershaw DD, Brennan S, Morris EA. Background parenchymal enhancement on baseline screening breast MRI: impact on biopsy rate and short-interval follow-up. AJR 2011;196(1):218–224. 26.
 7) Uematsu T, Kasami M, Watanabe J. Does the degree of background enhancement in breast MRI affect the detection and staging of breast cancer? European Radiology 2011;21(11):2261–2267.
 
-## b9 pleural effusion
+## Benign pleural effusion
 (a)<img src="images/LF2/b9_pleural_effusion/a1a.tif" style="width:40%">
 (b)<img src="images/LF2/b9_pleural_effusion/a1b.tif" style="width:40%">
 
@@ -488,7 +503,7 @@ Small amount of pleural effusion identified on MRI may be physiologic and  usual
 
 1) Nguyen J, Nicholson BT, Patrie JT, Harvey JA. Incidental pleural effusions detected on screening breast MRI. AJR 2012; 199
 
-## b9 sternalis - Sternalis muscle.
+## Benign Sternalis muscle.
 (a)<img src="images/LF2/b9_sternalis/a1a.tif" style="width:28%">
 (b)<img src="images/LF2/b9_sternalis/a1b.tif" style="width:28%">
 (c)<img src="images/LF2/b9_sternalis/a1c.tif" style="width:28%">
@@ -517,7 +532,7 @@ The sternalis muscle is a variant of the chest wall musculature. It may be visib
 1) Bradley FM, Hoover HC, Hulka CA et-al. The sternalis muscle: an unusual normal finding seen on mammography. AJR. 1996;166 (1): 33-6. 
 2) Young Lee B, Young Byun J, Hee Kim H et-al. The sternalis muscles: incidence and imaging findings on MDCT. J Thorac Imaging. 2006;21 (3): 179-83.
 
-##b9 Abscess
+## Benign Abscess
 
 History: 42-year-old patient with recurrent mastitis. 
 
@@ -544,7 +559,7 @@ Depending on the water content of the collection, MR T2-weighted signal may vary
 1)	FuP, Kurihara Y, Kanemaki Y, et al. High-Resolution MRI in Detecting Subareolar Breast Abscess. AJR 2007; 188:1568–1572. 
 2)	Trop I, Dugas A, David J, et al. Breast Abscesses: Evidence-based Algorithms for Diagnosis, Management, and Follow-up. RadioGraphics 2011; 31:1683–1699. 
 
-##b9 BPE
+## Benign BPE
 
 History:  Four patients illustrating the range of background parenchymal enhancement seen on breast MRI. 
 
@@ -569,7 +584,7 @@ The fifth edition of the ACR BI-RADS (Breast Imaging Reporting and Data System) 
 2) Morris EA, Comstock CE, Lee CH, et al. ACR BI-RADS® Magnetic Resonance Imaging. In: ACR BI-RADS® Atlas, Breast Imaging Reporting and Data System. Reston, VA, American College of Radiology; 2013.
 3) King V, Brooks JD, Bernstein JL, Reiner AS, Pike MC, Morris EA. Background parenchymal enhancement at breast MR imaging and breast cancer risk. Radiology. 2011;260(1):50-60. 
 
-##b9 brca cellulitis
+## Benign brca cellulitis
 
 History: 51-year-old woman undergoing high risk screening MRI. 
 
@@ -591,7 +606,7 @@ Also noted in this case, signal void artifact caused by an oversized field of vi
 1)	Harvey JA, Hendrick RE, Coll JM, et al.  Breast MR Imaging Artifacts: How to Recognize and Fix Them. RadioGraphics 2007; 27:S131–S145
 2)	Yitta S, Joe BN, Wisner DJ, et al. Recognizing Artifacts and Optimizing Breast MRI at 1.5 and 3 T. American Journal of Roentgenology. 2013; 200: W673-W682.
 
-## b9 hem duct
+## Benign hem duct
 History: 44-year-old woman undergoing high risk screening breast MRI. 
 
 (a)<img src="images/LF3/b9_hem_duct/a1a.tif" style="width:28%">
@@ -613,7 +628,7 @@ Normal ducts are usually invisible on MR imaging as they blend in within the bac
 1)	Ferris-James D, Iuanow E, Mehta T, Shaheen R, et al. Imaging Approaches to Diagnosis and Management of Common Ductal Abnormalities. RadioGraphics 2012; 32:1009–1030
 2)	Raza S, Birdwell R. Specialty Imaging. Breast MRI: a comprehensive imaging guide/ first edition. ISBN 978-1-931884-17-4
 
-#b9 lipoma
+## Benign lipoma
 
 History:  46-year-old woman with a palpable right breast lump and a  negative mammographic and sonographic workup. MRI was performed for further evaluation. 
 
@@ -640,7 +655,7 @@ Lipomas are one of the most common mesenchymal tumors that closely resemble fat 
 1) Ramirez-Montano L, Vargas-Tellez E, Dajer-Fadel WL, Maceda SE. Giant lipoma of the breast. Arch Plast Surg. 2013; 40: 244-246.
 Murphey MD, Carroll JF, Flemming DJ,  Pope TL, Gannon FH, Kransdorf MJ. From the archives of AFIP: benign musculoskeletal lipomatous lesions. Radiographics. 2004; 24:1433-1466.
 
-##b9 intra LN
+## Benign intra LN
 
 (a)<img src="images/LF3/b9_lymph_node/a1a.tif" style="width:28%">
 (b)<img src="images/LF3/b9_lymph_node/a1b.tif" style="width:28%">
@@ -667,7 +682,7 @@ Intramammary lymph nodes are separate from the axillary lymph nodes and are comp
 1) Meyer JE, Ferraro FA, Frenna TH et-al. Mammographic appearance of normal intramammary lymph nodes in an atypical location. AJR Am J Roentgenol. 1993;161 (4): 779-80.
 2) Ecanow JS, Abe H, Newstead GM, Ecanow DB, Jeske JM. Axillary staging of breast cancer: what the radiologist should know. Radiographics. 2013; 33: 1589-1612.
 
-##b9 round atelectasis
+## Benign round atelectasis
 
 History: 46-year-old patient undergoing high risk screening breast MRI. 
 
@@ -696,7 +711,7 @@ Rounded atelectasis is an uncommon form of peripheral lung collapse that can be 
 1) Stathopoulos GT, Karamessini MT, Sotiriadi AE, Pastromas VG. Rounded atelectasis of the lung. Respir Med. 2005; 99(5):615-23.
 2) Yamaguchi T, Hayashi K, Ashizawa K, et al. Magnetic resonance imaging of rounded atelectasis. J Thorac Imaging. 1997; 12(3): 188-94.
 
-##b9 SF and SA
+## Benign SF and SA
 
 History: 36-year-old patient undergoing high risk screening breast MRI. 
 
