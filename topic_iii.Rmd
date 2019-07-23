@@ -1,12 +1,12 @@
 ---
-title: "Topic III - LF1"
+title: "Malignant Cases"
 output:
   html_document: 
     toc: true
     toc_float: true
 ---
 
-## ca pregnancy associated
+## Malignancy - pregnancy associated
 (a)<img src="images/LF1/ca_pregnancy_associated/a1a.tif" style="width:21%">
 (b)<img src="images/LF1/ca_pregnancy_associated/a1b.tif" style="width:21%">
 (c)<img src="images/LF1/ca_pregnancy_associated/a1c.tif" style="width:21%">
@@ -48,7 +48,7 @@ Pregnancy associated breast carcinoma (PABC) is a rare occurrence with an estima
 3)	Vashi R, Hooley, R, Butler R, et al. Breast Imaging of the Pregnant and Lactating Patient: Physiologic Changes and Common Benign Entities. American Journal of Roentgenology: 2013; 200: 329-336. 
 4)	ACR PRACTICE PARAMETER FOR PERFOMRNG AND INTERPRETING MRI. Amended 2014.
 
-## ca neo adj partial response 2 x
+## Malignancy - neo adj partial response 2 x
 (a)<img src="images/LF1/ca_neoadj_pr/a1A.tif" style="width:40%">
 (b)<img src="images/LF1/ca_neoadj_pr/a1B.tif" style="width:40%">
 Figure 1 - MRI of newly diagnosed left breast invasive ductal carcinoma with axillary lymph node metastases 
@@ -75,7 +75,7 @@ AJR. 2005;184: 868-877.
 2) Partridge SC, Gibbs JE, Lu Y, Esserman LJ, Sudilovsky D, Hylton NM. Accuracy of MR imaging for revealing residual breast cancer in patients who have undergone neoadjuvant chemotherapy. AJR 2002; 179:1193-1199 
 3) Eisenhauer EA, Therasse P, Bogaerts J, et al.(2009) New Response Evaluation Criteria in Solid Tumours: Revised RECIST guideline (version 1.1) Eur J Cancer 45:228–247.
 
-## ca paget's dz
+## Malignancy - paget's dz
 (a)<img src="images/LF1/ca_pagets_dz/a1A.tif" style="width:21%">
 (b)<img src="images/LF1/ca_pagets_dz/a1B.tif" style="width:21%">
 (c)<img src="images/LF1/ca_pagets_dz/a1C.tif" style="width:21%">
@@ -109,7 +109,7 @@ Paget Disease is a rare disease of the breast, accounting for 1-3% of all breast
 2) Kim HS, Seok JH, Cha ES, et al. Significance of nipple enhancement of Paget's disease in contrast enhanced breast MRI. Arch Gynecol Obstet.2010 Aug; 282(2):157-62. 
 3) Muttarak M, Siriya B, Kongmebhol P,  et al. Paget’s disease of the breast: clinical, imaging and pathologic findings: a review of 16 patients Biomed Imaging Interv J 2011; 7(2):e16
 
-## ca pectoralis
+## Malignancy - pectoralis
 (a)<img src="images/LF1/ca_pectoralis/a1a.tif" style="width:21%">
 (b)<img src="images/LF1/ca_pectoralis/a1b.tif" style="width:21%">
 (c)<img src="images/LF1/ca_pectoralis/a1c.tif" style="width:21%">
@@ -130,7 +130,7 @@ The patient with tumor extension into the chest wall is usually considered stage
 1)	Morris EA, Schwartz LH, Drotman MB, et al. Evaluation of pectoralis major muscle in patients with posterior breast tumors on breast MR images: early experience. Radiology 2000;214:67-72
 2)	ACR PRACTICE PARAMETER FOR THE PERFORMANCE OF CONTRASTENHANCED MAGNETIC RESONANCE IMAGING (MRI) OF THE BREAST. Amended 2014 (Resolution 39).
 
-## ca stage 3 c inop
+## Malignancy - stage 3 c inop
 (a)<img src="images/LF1/ca_stage3cinop/a1a.tif" style="width:28%">
 (b)<img src="images/LF1/ca_stage3cinop/a1b.tif" style="width:28%">
 (c)<img src="images/LF1/ca_stage3cinop/a1c.tif" style="width:28%">
@@ -166,7 +166,7 @@ Two patterns of Pectoralis muscle involvement have been noted:  infiltrative enh
 1)	Morris EA, Schwartz LH, Drotman MB, et al. Evaluation of pectoralis major muscle in patients with posterior breast tumors on breast MR images: early experience. Radiology 2000;214:67-72]
 2)	Lee SC,  Jain PA, Jethwa SC, et al.  Radiologists’ Role in Breast Cancer Staging: Providing Key Information for Clinicians. RadioGraphics 2014; 34:330–342
 
-## ca stage 4 liver met IDC LAD
+## Malignancy - stage 4 liver met IDC LAD
 (a)<img src="images/LF1/ca_stage4livermet/a1a.tif" style="width:28%">
 (b)<img src="images/LF1/ca_stage4livermet/a1b.tif" style="width:28%">
 (c)<img src="images/LF1/ca_stage4livermet/a1c.tif" style="width:28%">
@@ -188,7 +188,7 @@ Approximately 4% of patients with a diagnosis of breast cancer will have distant
 
 1)	Lee SC, Jain PA, Jethwa SC, et al. Radiologists’ Role in Breast Cancer Staging: Providing Key Information for Clinicians. RadioGraphics 2014; 34:330–342
 
-## ca stage N2 im node
+## Malignancy - stage N2 im node
 (a)<img src="images/LF1/ca_stageN2_im_node/a1a.tif" style="width:21%">
 (b)<img src="images/LF1/ca_stageN2_im_node/a1b.tif" style="width:21%">
 (c)<img src="images/LF1/ca_stageN2_im_node/a1c.tif" style="width:21%">
@@ -213,7 +213,7 @@ According to the seventh edition of the AJCC TNM classification, metastases to l
 2)	Lee SL, Jain PA, Jethwa SC, et al.  Radiologists’ Role in Breast Cancer Staging: Providing Key Information for Clinicians. RadioGraphics 2014; 34:330–342.
 3)	Neal CH, Daly CP, Nees AV, Helvie MA. Can preoperative axillary US help exclude N2 and N3 metastatic breast cancer?Radiology 2010;257(2): 335–341.
 
-## ca stage N3 im node
+## Malignancy - stage N3 im node
 (a)<img src="images/LF1/ca_stageN3_im_node/a1a.tif" style="width:21%">
 (b)<img src="images/LF1/ca_stageN3_im_node/a1b.tif" style="width:21%">
 (c)<img src="images/LF1/ca_stageN3_im_node/a1c.tif" style="width:21%">
@@ -249,7 +249,7 @@ In our case, the patient was found to have an presumed metastatic internal mamma
 3)	Neal CH, Daly CP, Nees AV, Helvie MA. Can preoperative axillary US help exclude N2 and N3 metastatic breast cancer?Radiology 2010;257(2): 335–341.
 
 
-## ca stage T4 ilc nipp
+## Malignancy - stage T4 ilc nipp
 (a)<img src="images/LF1/ca_stageT4_ilcnipp/a1a.tif" style="width:28%">
 (b)<img src="images/LF1/ca_stageT4_ilcnipp/a1b.tif" style="width:28%">
 (c)<img src="images/LF1/ca_stageT4_ilcnipp/a1c.tif" style="width:28%">
@@ -285,7 +285,7 @@ MR imaging has been shown to affect clinical management in up to 50% of patients
 2)	Lopez JK, Bassett LW. Invasive Lobular Carcinoma of the Breast: Spectrum of Mammographic, US, and MR Imaging Findings. RadioGraphics 2009; 29:165–176.
 3)	Mann RM, Hoogeveen YL, Blickman JG, et al. MRI compared to conventional diagnostic work-up in the detection and evaluation of invasive lobular carcinoma of the breast: a review of existing literature. Breast Cancer Res Treat 2008;107(1):1– 14.
 
-## ca stage T4 CW
+## Malignancy - stage T4 CW
 (a)<img src="images/LF1/ca_stageT4cw/a1a.tif" style="width:21%">
 (b)<img src="images/LF1/ca_stageT4cw/a1b.tif" style="width:21%">
 (c)<img src="images/LF1/ca_stageT4cw/a1c.tif" style="width:21%">
@@ -309,7 +309,7 @@ The patient with tumor extension into the chest wall is usually considered stage
 
 2)	ACR PRACTICE PARAMETER FOR THE PERFORMANCE OF CONTRASTENHANCED MAGNETIC RESONANCE IMAGING (MRI) OF THE BREAST. Amended 2014 (Resolution 39). 
 
-## ca trip neg
+## Malignancy - trip neg
 (a)<img src="images/LF1/ca_tripneg/a1a.tif" style="width:40%">
 (b)<img src="images/LF1/ca_tripneg/a1b.tif" style="width:40%">
 
@@ -349,7 +349,7 @@ Sonographically, triple negative tumors can mimic benign fibroadenoma or a compl
 2)	Dogan BE, Turnbull LW. Imaging of triple-negative breast cancer. Annals of Oncology 23 (supplement 6): vi23-vi29, 2012. 
 3)	Krismanich-Conniff K, Paramgul C, Patterson SK, et al. Triple Receptor-Negative Breast Cancer: Imaging and Clinical Characteristics. AJR 2012; 198:458–464
 
-## ca tabular
+## Malignancy - tabular
 (a)<img src="images/LF1/ca_tubular/a1a.tif" style="width:40%">
 (b)<img src="images/LF1/ca_tubular/a1b.tif" style="width:40%">
 
@@ -379,7 +379,7 @@ Tubular carcinoma is often detected as a small spiculated mass on screening mamm
 2)	Linda A, Zuiani C, Girometti R, et al. Unusual malignant tumors of the breast: MRI features and pathologic correlation. European Journal of Radiology 75 (2010) 178–184. 
 3)	Kitagawa K, Sakuma H, Ishida N, et al. Contrast-Enhanced High-Resolution MRI of Invasive Breast Cancer: Correlation with Histopathologic Subtypes.  AJR 2004;183:1805–1809
 
-##ca axillary LAD unknown primary 
+## Malignancy - axillary LAD unknown primary 
 (a)<img src="images/LF2/ca_axillary_LAD/a1a.tif" style="width:21%">
 (b)<img src="images/LF2/ca_axillary_LAD/1B.tif" style="width:21%">
 (c)<img src="images/LF2/ca_axillary_LAD/a1c.tif" style="width:21%">
@@ -402,7 +402,9 @@ Breast MRI is the most sensitive imaging modality for the detection of clinicall
 2) Orel SG, Weinstein SP, Schnall MD, et al. Breast MR imaging in patients with axillary node metastases and unknown primary malignancy. Radiology 1999; 212 (2):543–9
 3) J. de Bresser, B. de Vos, F. van der Ent, et al. Breast MRI in clinically and mammographically occult breast cancer presenting with an axillary metastasis: A systematic review.  EJSO 36 (2010) 114-119
 
-##ca Dense breast - 38-year-old with palpable left breast lump.
+## Malignancy - Dense breast 
+
+History: 38-year-old with palpable left breast lump.
 
 (a)<img src="images/LF2/ca_dense_breast/1A.tif" style="width:21%">
 (b)<img src="images/LF2/ca_dense_breast/1B.tif" style="width:21%">
@@ -445,7 +447,7 @@ There is literature support for pre-operative MRI in patients with extremely den
 1) Van Goethem M, Schelfhout K, Dijckmans L, et al. MR mammography in the pre-operative staging of breast cancer patients with dense breast tissue: comparison with mammography and ultra-sound. Eur Radiol 2004; 14:809–8165. 
 2) Behjatnia B, Sim J, Bassett L, et al. Does size matter? Comparison study between MRI, gross, and microscopic tumor sizes in breast cancer in lumpectomy specimens. Int J Clin Exp Pathol. 2010; 3(3): 303–309.
 
-##ca ILC
+## Malignancy - ILC
 64 year old with newly diagnosed left breast malignancy.  Breast MRI was performed for extent of disease evaluation.
 
 (a)<img src="images/LF2/ca_ILC/a1a.tif" style="width:21%">
@@ -489,7 +491,7 @@ Breast MRI is commonly performed for extent of disease evaluation and pre-operat
 5) Morrow M. Magnetic resonance imaging in breast cancer. one step forward, two steps back? JAMA 2004; 292:2779–278
 6) Morris EA. Should we dispense with preoperative breast MRI? Lancet 2010; 375:528–530 
 
-##ca ILC MC
+## Malignancy - ILC MC
 49 year old woman with newly diagnosed right breast malignancy.  Breast MRI was performed for extent of disease evaluation.
 
 (a)<img src="images/LF2/ca_ILC_MC/a1a.tif" style="width:21%">
@@ -537,7 +539,7 @@ Pre-operative breast MRI can detect additional cancers in ipsilateral breast in 
 4) Van Goethem M, Schelfhout K, Dijckmans L, et al. MR mammography in the pre-operative staging of breast cancer patients with dense breast tissue: comparison with mammography and ultra-sound. Eur Radiol 2004; 14:809–8165. 
 5) Mann RM, Hoogeveen YL, Blickmann JG, Boetes C. MRI compared to conventional diagnostic work-up in the detection and evaluation of invasive lobular carcinoma of the breast: a review of existing literature. Breast Cancer Res Treat 2008; 107:1–14 
 
-## ca medullary carcinoma
+## Malignancy - medullary carcinoma
 
 46 year old woman with newly diagnosed left breast malignancy.  Breast MRI was performed for extent of disease evaluation.
 
@@ -577,7 +579,7 @@ AJR  2012 May;198(5):W482-7.
 2) Meyer JE, Amin E, Lindfors KK et-al. Medullary carcinoma of the breast: mammographic and US appearance. Radiology. 1989;170 (1): 79-82.
 3) Yoo JL, Woo OH, Kim YK et-al. Can MR Imaging contribute in characterizing well-circumscribed breast carcinomas? Radiographics. 2010;30 (6): 1689-702
 
-##ca mucinous
+## Malignancy - mucinous
 59 year old woman with newly diagnosed left breast malignancy with axillary metastasis. 
 Breast MRI was performed for extent of disease evaluation. 
 
@@ -638,7 +640,7 @@ Mucinous carcinoma of the breast is a rare form (2% of all breast cancers) of in
 3) Kawashima M, Tamaki Y, Nonaka T, et al. MR imaging of mucinous carcinoma of the breast. AJR 2002; 179:179-183
 4) Monzawa S, Yokokawa M, Sakuma T, et al. Mucinous carcinoma of the breast: MRI features of pure and mixed forms with histopathologic correlation.  AJR 2009 Mar;192(3):W125-31. 
 
-## ca mucinous pure1
+## Malignancy - mucinous pure1
 (a)<img src="images/LF2/ca_mucinous_pure1/a1a.tif" style="width:21%">
 (b)<img src="images/LF2/ca_mucinous_pure1/a1b.tif" style="width:21%">
 (c)<img src="images/LF2/ca_mucinous_pure1/a1c.tif" style="width:21%">
@@ -666,7 +668,7 @@ Mucinous carcinoma of the breast is a rare form of invasive ductal carcinoma.  M
 3) Kawashima M, Tamaki Y, Nonaka T, et al. MR imaging of mucinous carcinoma of the breast. AJR 2002; 179:179-183
 4) Monzawa S, Yokokawa M, Sakuma T, et al. Mucinous carcinoma of the breast: MRI features of pure and mixed forms with histopathologic correlation.  AJR 2009 Mar;192(3):W125-31. 
 
-##ca mucinous pure 2
+## Malignancy - mucinous pure 2
 (a)<img src="images/LF2/ca_mucinous_pure1/a1a.tif" style="width:28%">
 (b)<img src="images/LF2/ca_mucinous_pure1/a1b.tif" style="width:28%">
 (c)<img src="images/LF2/ca_mucinous_pure1/a1c.tif" style="width:28%">
@@ -682,7 +684,7 @@ Mucinous carcinoma of the breast is a rare form of invasive ductal carcinoma.  O
 1) Kawashima M, Tamaki Y, Nonaka T, et al. MR imaging of mucinous carcinoma of the breast. AJR 2002; 179:179-183
 2) Monzawa S, Yokokawa M, Sakuma T, et al. Mucinous carcinoma of the breast: MRI features of pure and mixed forms with histopathologic correlation.  AJR 2009 Mar;192(3):W125-31. 
 
-##ca neo adj partial response
+## Malignancy - neo adj partial response
 CASE: 48 year old woman with newly diagnosed right breast invasive ductal carcinoma NOS with axillary metastasis.  Breast MRI was performed for extent of disease evaluation. 
 
 Baseline images.
@@ -749,7 +751,7 @@ AJR. 2005;184: 868-877.
 2) Partridge SC, Gibbs JE, Lu Y, Esserman LJ, Sudilovsky D, Hylton NM. Accuracy of MR imaging for revealing residual breast cancer in patients who have undergone neoadjuvant chemotherapy. AJR 2002; 179:1193-1199 
 3) Eisenhauer EA, Therasse P, Bogaerts J, et al.(2009) New Response Evaluation Criteria in Solid Tumours: Revised RECIST guideline (version 1.1) Eur J Cancer 45:228–247.
 
-## ca papillary carcinoma
+## Malignancy - papillary carcinoma
 (a)<img src="images/LF2/ca_papillary_carcinoma/a1a.tif" style="width:28%">
 (b)<img src="images/LF2/ca_papillary_carcinoma/a1b.tif" style="width:28%">
 (c)<img src="images/LF2/ca_papillary_carcinoma/a1c.tif" style="width:28%">
@@ -774,7 +776,7 @@ Papillary carcinoma of the breast is a rare type of invasive ductal breast cance
 3) Soo MS, Williford ME, Walsh R et-al. Papillary carcinoma of the breast: imaging findings. AJR Am J Roentgenol. 1995;164 (2): 321-6. 
 4) Wagner AE, Middleton LP, Whitman GJ. Intracystic papillary carcinoma of the breast with invasion. AJR Am J Roentgenol. 2004;183 (5): 1516. 
 
-##ca dcis high grade failed treatment
+## Malignancy - dcis high grade failed treatment
 
 History: 32-year-old woman with high grade DCIS for extent of disease evaluation.
 Progression of high grade DCIS while on non-conventional treatment.
@@ -820,7 +822,7 @@ Ductal Carcinoma in Situ (DCIS) is a heterogeneous disease varying in clinical p
 1)	Gregory D. Leonard, Sandra M. Swain. Ductal Carcinoma In Situ, Complexities and Challenges. Journal of the National Cancer Institute, Vol. 96, No. 12
 2)	Chan S, Chen JH, Agrawal G, Characterization of Pure Ductal Carcinoma In Situ on Dynamic Contrast-Enhanced MR Imaging: Do Nonhigh Grade and High Grade Show Different Imaging Features? Journal of Oncology. 2010; 2010: 431341.
 
-##ca high grade dcis underest on MG
+## Malignancy - high grade dcis underest on MG
 History: 55-year-old woman with high grade DCIS.  Extent of disease evaluation. 
 
 (a)<img src="images/LF3/ca_high_DCIS2/a1a.tif" style="width:21%">
@@ -853,7 +855,7 @@ In our example,  linear distribution of calcifications were identified on mammog
 2)	Chan S, Chen JH, Agrawal G, Characterization of Pure Ductal Carcinoma In Situ on Dynamic Contrast-Enhanced MR Imaging: Do Non-high Grade and High Grade Show Different Imaging Features? Journal of Oncology. 2010; 2010: 431341. 
 3)	Ballard LJ, Ballard JR. High‐Grade Ductal Carcinoma In Situ: An Overview for the Radiologist. J Am Osteopath College of Radiology 2013; Vol. 2, Issue 1
 
-##ca low grade DCIS
+## Malignancy - low grade DCIS
 
 History: 51-year-old woman undergoing high risk screening breast MRI. 
 
@@ -874,7 +876,7 @@ MRI has been shown to be more sensitive than mammography in detection of all gra
 2)	Gregory D. Leonard, Sandra M. Swain. Ductal Carcinoma In Situ, Complexities and Challenges. Journal of the National Cancer Institute, Vol. 96, No. 12
 
 
-##ca idc nipple involvement
+## Malignancy - idc nipple involvement
 
 History: 56-year-old woman undergoing breast MRI for extent of disease evaluation. 
 
@@ -902,7 +904,7 @@ MRI-measured tumor size and distance from the NAC are correlated with increased 
 3)	D’Alonzo M, Martincich L, Biglia N, et al. Clinical and radiological predictors of nipple-areolacomplex involvement in breast cancer patients.  European Journal of Cancer (2012) 48, 2311– 2318
 4)	Moon J, Chang Y, Lee E, et al. Malignant Invasion of the Nipple-Areolar Complex of the Breast: Usefulness of Breast MRI. AJR 2013; 201:448–455
 
-##ca ilc nipple involvement
+## Malignancy - ilc nipple involvement
 
 History: 44-year-old woman undergoing breast MRI for extent of disease evaluation. 
 
@@ -942,7 +944,7 @@ MR imaging has been shown to affect clinical management in 50% of patients with 
 2)	Lopez JK, Bassett LW. Invasive Lobular Carcinoma of the Breast: Spectrum of Mammographic, US, and MR Imaging Findings. RadioGraphics 2009; 29:165–176.
 3)	Mann RM, Hoogeveen YL, Blickman JG, et al. MRI compared to conventional diagnostic work-up in the detection and evaluation of invasive lobular carcinoma of the breast: a review of existing literature. Breast Cancer Res Treat 2008;107(1):1– 14.
 
-## ca LAD unknown primary 2
+## Malignancy - LAD unknown primary 2
 
 History: 55-year-old patient with axillary lymph node metastasis of unknown primary malignancy. 
 
@@ -983,7 +985,7 @@ Breast MRI is the most sensitive imaging modality for the detection of clinicall
 2) Orel SG, Weinstein SP, Schnall MD, et al. Breast MR imaging in patients with axillary node metastases and unknown primary malignancy. Radiology 1999; 212 (2):543–9
 3) Bresser J, Vos B, Van Der Ent F, et al. Breast MRI in clinically and mammographically occult breast cancer presenting with an axillary metastasis: A systematic review.  EJSO 36 (2010) 114-119
 
-## ca MCD HER2
+## Malignancy - MCD HER2
 
 History:  32-year-old woman with biopsy-proven malignancy undergoing breast MRI for evaluation of disease extent. 
 
@@ -1039,7 +1041,7 @@ It is important for the radiologist to review the pre-contrast nonfat saturated 
 2)	Sardanelli F1, Giuseppetti GM, Panizza P, et al. Sensitivity of MRI versus mammography for detecting foci of multifocal, multicentric breast cancer in Fatty and dense breasts using the whole-breast pathologic examination as a gold standard. AJR Am J Roentgenol. 2004 Oct;183(4):1149-57.
 3)	Wiechmann L, Sampson M, Stempel M, et al. Presenting features of breast cancer differ by molecular subtype.
 
-## ca underestimation
+## Malignancy - underestimation
 
 History: 56-year-old patient newly diagnosed with breast cancer undergoing breast MRI extent of disease evaluation.
 
