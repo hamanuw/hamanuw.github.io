@@ -69,6 +69,95 @@ Figure 1 - Screening MRI performed in an 18-year-old patient with Cowden syndrom
 
 a) Sagittal T1-weighted FS and 
 b) T2-weighted FS images of the left breast demonstrate multiple masses with T1 hypointensity and T2 hyperintensity (arrowhead) and T1 hypointensity and T2 minimal to mild hyperintensity (arrow)
+
+## high risk ADH PH
+
+History:48-year-old patient undergoing high risk screening MRI due to a personal history of breast cancer. 
+
+Atypical ductal hyperplasia (ADH).
+
+(a)<img src="images/LF3/high_risk_ADH/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/high_risk_ADH/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/high_risk_ADH/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/high_risk_ADH/a1d.tif" style="width:21%">
+
+Figure
+
+a) Sagittal T1-weighted image of the left breast demonstrates surgical alteration (arrows) in the central left breast from prior lumpectomy
+b) Sagittal  post-contrast subtraction image demonstrate no suspicious enhancement within the lumpectomy bed
+c) Sagittal post-contrast subtraction image without and 
+d) with CAD color overlay demonstrates a 1.2 cm area of suspicious linear nonmass enhancement (arrow) with mixed enhancement kinetics lateral to the lumpectomy site. No sonographic or mammographic correlate was identified. The area underwent MRI-guided biopsy which yielded ADH. 
+
+**Teaching Points**:
+
+Atypical Ductal Hyperplasia (ADH) is the most common high-risk lesion and is defined as ductal proliferation that is considered to increase a women’s life time risk of developing ductal carcinoma. In 20-50% of the time, depending on the needle gauge, ADH is upgraded histologically to ductal carcinoma in situ (DCIS) or invasive cancer at the time of surgical excision. 
+According to a recent review in 2012, no studies showed specific predictive morphologic or kinetic MRI characteristics for high-risk lesions. Moreover, there were no imaging features that could reliably predict subsequent upgrade to malignancy. The MRI appearance of ADH is variable, ranging from a mass to linear non-mass enhancement mimicking DCIS.  
+In our case example, atypical ductal hyperplasia was diagnosed on breast MRI in a patient with personal history of cancer. The American cancer society recommendations, however, remain controversial regarding performing yearly MRI screening for patients with personal history of breast cancer, DCIS or high risk lesions such as ADH, atypical lobular hyperplasia (ALH) and lobular carcinoma in situ(LCIS). 
+
+*References*:
+1)	Kohr JR, Eby PR, Allison KH, et al. Risk of Upgrade of Atypical Ductal Hyperplasia after Stereotactic Breast Biopsy: Effects of Number of Foci and Complete Removal of Calcifications. Radiology 2010; 255:723–730
+2)	High-Risk Lesions at MRI-Guided Breast Biopsy: Frequency and Rate of Underestimation AJR 2014; 203:682–686
+3)	Samantha L. Heller1 Linda Moy. Imaging Features and Management of High-Risk Lesions on Contrast Enhanced Dynamic Breast MRI. AJR 2012; 198:249–255
+
+#high risk LCIS
+
+History: 33-year-old patient undergoing high risk screening breast MRI.
+
+Lobular carcinoma in situ (LCIS)
+
+(a)<img src="images/LF3/high_risk_LCIS/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/high_risk_LCIS/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/high_risk_LCIS/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/high_risk_LCIS/a1d.tif" style="width:21%">
+
+Figure.
+
+a) Axial T1-weighted fat-suppressed post-contrast image demonstrates a 4 mm focus of enhancement in the posterior upper outer left breast, which does not have a correlate on 
+b) T2-weighted fat-suppressed images
+c) Sagittal post-contrast subtraction image of the left breast redemonstrates the 4 mm focus of enhancement, which shows a persistent delayed enhancement pattern on 
+d) CAD analysis (blue color). 
+
+**Teaching Points**: 
+
+Lobular carcinoma in situ (LCIS) is noninvasive proliferations of lobular cells known to be an indicator of future increased risk for breast cancer development. Existing data suggest that pleomorphic histology or large volumes of LCIS may be predictive of a more focally aggressive carcinoma. LCIS is usually an incidental finding at core biopsy as it has no reliable imaging features. The most common imaging features that have been associated with LCIS are grouped amorphous calcifications on mammography and focus or non–mass-like enhancement with persistent enhancement kinetics on MRI. No Specific features have been identified sonographically.  The currently available management recommendations of LCIS diagnosed at core biopsy is surgical excision of the biopsy site, particularly those of pleomorphic type.  
+
+*References*: 
+
+1)	Marion Scoggins, MD, Savitri Krishnamurthy, MD, Lumarie Santiago, et al. Lobular Carcinoma In Situ of the Breast: Clinical, Radiological, and Pathological Correlation. Acad Radiol 2013; 20:463–470
+2)	Kristen A. Atkins, MD, Michael A. Cohen, MD, Brandi Nicholson, MD. Atypical Lobular Hyperplasia and Lobular Carcinoma in Situ at Core Breast Biopsy: Use of Careful Radiologic-Pathologic Correlation to Recommend Excision or Observation. Radiology: Volume 269: Number 2—November 2013
+
+## high risk radial scar
+
+History: 41-year-old woman undergoing high risk screening breast MRI.
+
+Radial scar. 
+
+(a)<img src="images/LF3/high_risk_radialscar/a1a.tif" style="width:21%">
+(b)<img src="images/LF3/high_risk_radialscar/a1b.tif" style="width:21%">
+(c)<img src="images/LF3/high_risk_radialscar/a1c.tif" style="width:21%">
+(d)<img src="images/LF3/high_risk_radialscar/a1d.tif" style="width:21%">
+
+Figure 1
+
+a) Sagittal post-contrast subtraction and 
+b) sagittal post-contrast 3D MIP images of the left breast demonstrate an irregular enhancing mass in the central breast with mixed enhancement kinetics on
+c) CAD anaylsis
+d) Axial T1-weighted fat-suppressedpost-contrast image redemonstrates the irregular enhancing mass (arrows) along the lateral aspect of the left breast with associated architectural distortion. 
+
+<img src="images/LF3/high_risk_radialscar/a2.tif" style="width:40%">
+
+Figure 2 - Targeted ultrasound image of the left breast demonstrates a corresponding ill-defined hypoechoic mass with posterior acoustic shadowing (arrowheads). Biopsy yielded a radial scar.
+
+*Teaching Points*:
+
+Radial scar is a benign breast lesion characterized by a central fibro-elastotic core with entrapped ducts surrounded by cystic ducts and lobules showing a spectrum of proliferative changes. They typically measure less than 1 cm and usually called complex sclerosing lesions if they are 1 cm or greater.  Radial scars are typically seen in women younger than 50 years of age. The most common MR imaging feature is non-mass enhancement, including in linear or clumped distribution, with associated distortion and type 2 or 3 enhancement kinetics.
+Radial sclerosing lesions are associated with an elevated risk for subsequent development of breast cancer and many studies have reported association with malignancy in up to 40% of cases. The current management recommendations are surgical excision. However, some published reviews suggest that excision of radial scars should only be performed if associated with atypia.
+
+*References*:
+
+1)	Becker L, Trop I, David J, et al. Management of radial scars found at percutaneous breast biopsy. Can Assoc Radiol J 2006; 57:72–78. 
+2)	Chadashvili T, Ghosh E, Fein-Zachary V, et al. Nonmass Enhancement on Breast MRI: Review of Patterns With Radiologic-Pathologic Correlation and Discussion of Management. AJR 2015; 204:219–227. 
+3)	Sohn VY, Causey MW, Steele SR, The treatment of radial scars in the modern era-surgical excision is not required. Am Surg. 2010 May; 76(5):522-5.
 c) T1-weighted FS post-contrast image showshomogeneous enhancement in these masses with 
 d) persistent delayed enhancement  color coded as blue on the CAD overlay. 
 

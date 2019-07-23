@@ -6,13 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: Topics
-      menu:
-        - text: LF1
-          href: LF1.html
-        - text: LF2
-          href: LF2.html
-        - text: LF3
-          href: LF3.html
+      href: LF1.html
     - icon: fa-envelope fa-lg
       href: mailto:<rh2616@cumc.columbia.edu>
 output:

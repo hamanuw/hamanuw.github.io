@@ -1,17 +1,15 @@
 ---
-title: "LF1"
+title: "Content"
 ---
 
-This contains all the topics in the folder LF1.
+These are the following topics that will be covered:
 
-The topic is made up of the following components. 
-
-* scrolling example - [click here](topic_i.html)
-* 4 cad - NOT DONE YET [Part I](topic_ix.html)
-* b9 - DONE [Part II](topic_ii.html)
-* ca - DONE [Part III](topic_iii.html)
-* eod t8 fx - DONE [Part IV](topic_iv.html)
-* implant - DONE [Part V](topic_v.html)
-* itc - DONE [Part VI](topic_vi.html)
-* residual - DONE[Part VII](topic_vii.html)
-* risk - DONE[Part VIII](topic_viii.html)
+* scrolling example [link](topic_i.html)
+* Benign Cases  [link](topic_ii.html)
+* Malignant Cases  [link](topic_iii.html)
+* High risk cases [link](topic_viii.html)
+* Implant Cases  [link](topic_v.html)
+* eod t8 fx  [link](topic_iv.html)
+* itc  [link](topic_vi.html)
+* residual [link](topic_vii.html)
+* 4 cad [link](topic_ix.html)
