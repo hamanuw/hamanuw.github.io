@@ -7,8 +7,6 @@ navbar:
       href: about.html
     - text: Topics
       href: LF1.html
-    - text: Questions
-      href: questions.html
     - icon: fa-envelope fa-lg
       href: mailto:<rh2616@cumc.columbia.edu>
 output:

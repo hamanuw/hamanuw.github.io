@@ -4,6 +4,8 @@ title: "Dr.Ha's Educational Webpage"
 
 ### Front Page
 
-Display what you want. Like pictures:
+Our question bank will be hosted on ANKI. [Here is a link to the program](https://apps.ankiweb.net/)
 
-<img src="Images/cool_image.jpeg" style="width:25%">
+Then here is also a helpful video to how to learn/use ANKI
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7K2StK7e3ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
